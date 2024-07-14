@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16d6e1f1-2403-48e6-b929-93f0cc777b07" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Images/326703-64.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/326703-64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/plat.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/plat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Images/plat2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Images/plat2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Splash.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Splash.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Sprites/Pie.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Water2D/Sprites/Pie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Sprites/Polygon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Water2D/Sprites/Polygon.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "Master",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+</project>
