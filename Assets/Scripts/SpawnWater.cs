@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 using Water2D;
+
 public class SpawnWater : MonoBehaviour
 {
     public static SpawnWater instance;
@@ -15,18 +18,21 @@ public class SpawnWater : MonoBehaviour
         else if (instance != this)
             Destroy(gameObject);
     }
+
     // Start is called before the first frame update
     void Start()
     {
         WaterSpawned = false;
     }
 
-    public void SpawnReady() {
-       WaterSpawned = true;
+    public void SpawnReady()
+    {
+        WaterSpawned = true;
         Water2D_Spawner.instance.SpawnAll();
     }
 
-    public void WaterScore() {
+    public void WaterScore()
+    {
         waterDrop++;
     }
 }

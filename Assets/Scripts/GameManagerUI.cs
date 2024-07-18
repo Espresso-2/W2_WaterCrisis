@@ -1,28 +1,43 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using DG.Tweening;
+using UnityEngine.Serialization;
 
 public class GameManagerUI : MonoBehaviour
 {
-
     public Slider slider;
-    public string MoreGamesURL;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private SettingPanel settingPanel;
+    [SerializeField] private Button SettingBtn;
+    [SerializeField] private Button Ready;
+    [SerializeField] private Button ReStart;
+    private SpawnWater spawnWater;
+    private RectTransform ReadyRect;
+    private RectTransform ReStartRect;
+
+    private void Start()
     {
-        
+        ReStartRect = ReStart.gameObject.GetComponent<RectTransform>();
+        ReadyRect = Ready.gameObject.GetComponent<RectTransform>();
+        spawnWater = GetComponent<SpawnWater>();
+        SettingBtn.onClick.AddListener(() => { settingPanel.gameObject.SetActive(true); });
+        Ready.onClick.AddListener(() =>
+        {
+            spawnWater.SpawnReady();
+            var OriginalX = ReadyRect.anchoredPosition.x;
+            ReadyRect.DOAnchorPosX(175, 1f);
+            ReStartRect.DOAnchorPosX(OriginalX, 1f);
+        });
     }
 
-    // Update is called once per frame
     void Update()
     {
-        slider.value =( SpawnWater.instance.waterDrop / 80) * 100;
+        slider.value = (SpawnWater.instance.waterDrop / 80) * 100;
     }
 
-
-    public void Restart() {
+    public void Restart()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
@@ -31,12 +46,8 @@ public class GameManagerUI : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
-    public void NextLevel() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
-
-    }
-
-    public void MoreGames() {
-        Application.OpenURL(MoreGamesURL);
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
