@@ -5,7 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d6e1f1-2403-48e6-b929-93f0cc777b07" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/6_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/6_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/bg_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/bg_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/bg_2_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/bg_2_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/bg_2_3_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/bg_2_3_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/bg_2_3_3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/bg_2_3_4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/btn_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/btn_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/btn_2_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/btn_2_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_go.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/btn_go.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/game_icon_gold.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/game_icon_gold.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/icon_ad.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/icon_ad.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/loading_logo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_progress_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/loading_progress_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_progress_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/loading_progress_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_words.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/loading_words.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_btn.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/set_btn.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/time_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/time_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/time_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/time_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/time_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/time_3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/tips_1_new.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/tips_1_new.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/tips_2_0_gold.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/tips_2_0_gold.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/tips_2_1_gold.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/tips_2_1_gold.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/unwall_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/unwall_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/wall_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_0_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/wall_0_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/wall_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/wall_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/water_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/water_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_1_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/water_1_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_2_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/water_2_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_2_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/water_2_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/效果图0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/效果图1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/效果图2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/效果图3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/效果图4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图5_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/效果图5_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/效果图6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/RAINYDAYS.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/RAINYDAYS.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Rounds Black.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Rounds Black.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Sabandija-font-ffp 1.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Sabandija-font-ffp 1.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Sabandija-font-ffp.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Sabandija-font-ffp.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Simply Rounded Bold Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Simply Rounded Bold Italic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Simply Rounded Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Simply Rounded Bold.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Simply Rounded Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Simply Rounded Italic.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Simply Rounded.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/Simply Rounded.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/VinylCuts.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/VinylCuts.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/junegull.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Fonts/junegull.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,34 +90,35 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/Base/SingletonBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/StaminaSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/UI/SettingPanel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2jQ8j2eMiHwLAylTQlXDIgrqJYm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\17885\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\17885\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\17885\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\17885\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\17885\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\17885\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="附加到 Unity 编辑器.附加到 Unity 编辑器">
     <configuration name="启动 Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\UnityVersion\2021.3.14f1c1\Editor\Unity.exe" />
@@ -62,7 +136,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
-    <configuration name="附加到 Unity 编辑器并运行" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="附加到 Unity 编辑器" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -72,7 +146,7 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="附加到 Unity 编辑器" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="附加到 Unity 编辑器并运行" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
@@ -92,6 +166,8 @@
       <option name="presentableId" value="Default" />
       <updated>1721308072967</updated>
       <workItem from="1721308076304" duration="6589000" />
+      <workItem from="1721554748413" duration="1695000" />
+      <workItem from="1721560436461" duration="10284000" />
     </task>
     <servers />
   </component>
