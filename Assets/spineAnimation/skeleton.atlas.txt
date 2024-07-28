@@ -1,0 +1,153 @@
+
+skeleton.png
+size: 262,183
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_eye
+  rotate: true
+  xy: 247, 124
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+L_eye2
+  rotate: true
+  xy: 247, 141
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1
+L_leg
+  rotate: false
+  xy: 247, 104
+  size: 11, 18
+  orig: 11, 18
+  offset: 0, 0
+  index: -1
+L_leg2
+  rotate: false
+  xy: 244, 31
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+R_eye
+  rotate: false
+  xy: 132, 172
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+R_eye2
+  rotate: false
+  xy: 132, 161
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+R_leg1
+  rotate: false
+  xy: 205, 2
+  size: 12, 25
+  orig: 12, 25
+  offset: 0, 0
+  index: -1
+R_leg2
+  rotate: false
+  xy: 244, 9
+  size: 11, 20
+  orig: 11, 20
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 111
+  size: 94, 70
+  orig: 94, 72
+  offset: 0, 1
+  index: -1
+drop_yan1
+  rotate: false
+  xy: 219, 165
+  size: 26, 12
+  orig: 66, 32
+  offset: 4, 8
+  index: -1
+drop_yan2
+  rotate: false
+  xy: 98, 112
+  size: 43, 17
+  orig: 66, 32
+  offset: 1, 6
+  index: -1
+drop_yan3
+  rotate: true
+  xy: 220, 3
+  size: 47, 22
+  orig: 66, 32
+  offset: 4, 4
+  index: -1
+drop_yan4
+  rotate: true
+  xy: 219, 104
+  size: 59, 26
+  orig: 66, 32
+  offset: 0, 2
+  index: -1
+drop_yan5
+  rotate: true
+  xy: 220, 52
+  size: 50, 28
+  orig: 66, 32
+  offset: 13, 1
+  index: -1
+drop_yan6
+  rotate: true
+  xy: 98, 131
+  size: 50, 32
+  orig: 66, 32
+  offset: 16, 0
+  index: -1
+head
+  rotate: true
+  xy: 2, 5
+  size: 57, 59
+  orig: 57, 59
+  offset: 0, 0
+  index: -1
+tan_1
+  rotate: false
+  xy: 2, 64
+  size: 140, 45
+  orig: 140, 45
+  offset: 0, 0
+  index: -1
+tan_2
+  rotate: false
+  xy: 63, 6
+  size: 140, 13
+  orig: 140, 13
+  offset: 0, 0
+  index: -1
+tong_2
+  rotate: true
+  xy: 144, 104
+  size: 77, 73
+  orig: 77, 73
+  offset: 0, 0
+  index: -1
+zhuang_1
+  rotate: false
+  xy: 144, 29
+  size: 74, 73
+  orig: 74, 73
+  offset: 0, 0
+  index: -1
+zhuang_2
+  rotate: true
+  xy: 63, 21
+  size: 41, 73
+  orig: 41, 73
+  offset: 0, 0
+  index: -1
