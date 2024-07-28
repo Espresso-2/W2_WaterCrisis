@@ -1,0 +1,167 @@
+
+1.png
+size: 154,569
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_leg
+  rotate: false
+  xy: 39, 11
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+R_leg
+  rotate: false
+  xy: 59, 7
+  size: 13, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+ass
+  rotate: true
+  xy: 107, 15
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 93, 68
+  size: 75, 56
+  orig: 75, 56
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 2, 5
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+fly
+  rotate: false
+  xy: 107, 43
+  size: 42, 23
+  orig: 45, 23
+  offset: 2, 0
+  index: -1
+head
+  rotate: false
+  xy: 59, 26
+  size: 46, 40
+  orig: 46, 40
+  offset: 0, 0
+  index: -1
+head1
+  rotate: true
+  xy: 105, 2
+  size: 11, 13
+  orig: 11, 13
+  offset: 0, 0
+  index: -1
+head2
+  rotate: false
+  xy: 130, 250
+  size: 22, 18
+  orig: 22, 18
+  offset: 0, 0
+  index: -1
+lun0
+  rotate: false
+  xy: 2, 417
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+lun1
+  rotate: false
+  xy: 2, 145
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+lun2
+  rotate: false
+  xy: 2, 273
+  size: 142, 142
+  orig: 142, 142
+  offset: 0, 0
+  index: -1
+zL_ear
+  rotate: false
+  xy: 130, 145
+  size: 21, 35
+  orig: 21, 35
+  offset: 0, 0
+  index: -1
+zL_eye
+  rotate: false
+  xy: 140, 29
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+zL_leg1
+  rotate: false
+  xy: 23, 7
+  size: 14, 17
+  orig: 16, 18
+  offset: 1, 1
+  index: -1
+zL_leg2
+  rotate: false
+  xy: 130, 182
+  size: 22, 33
+  orig: 22, 34
+  offset: 0, 1
+  index: -1
+zR_ear
+  rotate: false
+  xy: 130, 217
+  size: 21, 31
+  orig: 21, 31
+  offset: 0, 0
+  index: -1
+zR_eye
+  rotate: false
+  xy: 140, 15
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+zR_leg1
+  rotate: false
+  xy: 89, 10
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+zR_leg2
+  rotate: false
+  xy: 74, 8
+  size: 13, 16
+  orig: 13, 17
+  offset: 0, 1
+  index: -1
+zbody
+  rotate: false
+  xy: 2, 83
+  size: 89, 60
+  orig: 90, 60
+  offset: 0, 0
+  index: -1
+zhead
+  rotate: false
+  xy: 2, 26
+  size: 55, 55
+  orig: 62, 55
+  offset: 7, 0
+  index: -1
+zhead2_noise
+  rotate: false
+  xy: 120, 2
+  size: 12, 11
+  orig: 14, 17
+  offset: 0, 2
+  index: -1
