@@ -18,7 +18,7 @@ public class RotatePlatform : MonoBehaviour
 
     void Start()
     {
-        Water2D_Spawner.instance.Restore();
+       // Water2D_Spawner.instance.Restore();
        // WaterSpawned = false;
 
     }

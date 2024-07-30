@@ -6,7 +6,7 @@ using UnityEngine.Serialization;
 using UnityEngine.UI;
 using W_Scripts;
 
-public class StaminaSystem : SingletonBase<StaminaSystem>
+public class StaminaSystem : MonoBehaviour
 {
     [SerializeField] private Slot[] Slots;
 
@@ -18,11 +18,11 @@ public class StaminaSystem : SingletonBase<StaminaSystem>
     [SerializeField] private Text TimerUI;
 
     private float Timer;
+    public static StaminaSystem Instance;
 
-    protected override void Awake()
+    private void Awake()
     {
-        base.Awake();
-        DontDestroyOnLoad(gameObject);
+        Instance = this;
     }
 
     private void Start()
@@ -46,6 +46,7 @@ public class StaminaSystem : SingletonBase<StaminaSystem>
         if (CurrentStamina >= Stamina)  return;
         CurrentStamina++;
         SlotUpdates(CurrentStamina);
+        PlayerPrefs.SetInt("Stamina",CurrentStamina);
     }
     
     public void ReduceStamina()
@@ -57,7 +58,7 @@ public class StaminaSystem : SingletonBase<StaminaSystem>
         }
         Slots[CurrentStamina].state = StaminaState.None;
         CurrentStamina--;
-        
+        PlayerPrefs.SetInt("Stamina",CurrentStamina);
     }
 
     private void SlotUpdates(int currentStamina)
@@ -81,11 +82,15 @@ public class StaminaSystem : SingletonBase<StaminaSystem>
             }
             int minutes = Mathf.FloorToInt(Timer / 60f);
             int seconds = Mathf.FloorToInt(Timer % 60f);
-            TimerUI.text = string.Format("{0,00}:{1:00}", minutes, seconds);
+            if (TimerUI)
+            {
+                TimerUI.text = string.Format("{0,00}:{1:00}", minutes, seconds);
+
+            }
         }
         else
         {
-            TimerUI.text = "";
+            //TimerUI.text = "";
         }
     }
 

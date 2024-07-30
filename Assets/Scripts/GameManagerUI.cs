@@ -12,12 +12,14 @@ public class GameManagerUI : MonoBehaviour
     [SerializeField] private Button SettingBtn;
     [SerializeField] private Button Ready;
     [SerializeField] private Button ReStart;
+    [SerializeField] private Text LevelText;
     private SpawnWater spawnWater;
     private RectTransform ReadyRect;
     private RectTransform ReStartRect;
 
     private void Start()
     {
+        LevelText.text = "第 " + PlayerPrefs.GetInt("Level", 1) + " 关";
         ReStartRect = ReStart.gameObject.GetComponent<RectTransform>();
         ReadyRect = Ready.gameObject.GetComponent<RectTransform>();
         spawnWater = GetComponent<SpawnWater>();

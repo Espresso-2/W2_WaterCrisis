@@ -19,6 +19,7 @@ public abstract class SingletonBase <T>: MonoBehaviour where T : SingletonBase<T
         }
         else
         {
+            Destroy(gameObject);
             Debug.LogError("不为单例----"+typeof(T).Name);
         }
     }

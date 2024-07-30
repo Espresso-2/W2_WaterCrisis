@@ -2364,6 +2364,7 @@ MonoBehaviour:
   SettingBtn: {fileID: 7752908815423568646}
   Ready: {fileID: 177488619}
   ReStart: {fileID: 2019340954}
+  LevelText: {fileID: 4998573649788261053}
 --- !u!114 &2038050018
 MonoBehaviour:
   m_ObjectHideFlags: 0
