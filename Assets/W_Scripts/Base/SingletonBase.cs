@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class SingletonBase <T>: MonoBehaviour where T : SingletonBase<T>
+public abstract class SingletonBase<T> : MonoBehaviour where T : SingletonBase<T>
 {
     private static T instance;
     public static T Instance
@@ -16,11 +16,6 @@ public abstract class SingletonBase <T>: MonoBehaviour where T : SingletonBase<T
         if (instance is null)
         {
             instance = this as T;
-        }
-        else
-        {
-            Destroy(gameObject);
-            Debug.LogError("不为单例----"+typeof(T).Name);
         }
     }
 }

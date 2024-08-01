@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using W_Scripts;
 using W_Scripts.UI;
 
 public class MenuManager : MonoBehaviour
@@ -46,8 +47,8 @@ public class MenuManager : MonoBehaviour
 
     public void StartGame()
     {
+        StaminaSystem.Instance.LoadNextScene();
         SceneManager.LoadScene(CurrentIndex);
-        StaminaSystem.Instance.ReduceStamina();
     }
 
     private void InstantiateLevelShow(int LevelIndex)
