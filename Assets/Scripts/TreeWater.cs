@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TreeWater : MonoBehaviour
 {
@@ -30,7 +31,8 @@ public class TreeWater : MonoBehaviour
         {
             Completed = true;
             Win.SetActive(true);
-           
+            var Level = SceneManager.GetActiveScene().buildIndex;
+            PlayerPrefs.SetInt("Level",Level+1);
             //TODO:埋点
         }
     }

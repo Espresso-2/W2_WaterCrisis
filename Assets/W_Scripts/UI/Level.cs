@@ -38,7 +38,6 @@ namespace W_Scripts.UI
         {
             LevelText = transform.GetChild(4).GetComponent<Text>();
             LevelText.text = "第" + levelIndex + "关";
-            Debug.Log(levelIndex);
         }
 
         public void OnUnLockClick()

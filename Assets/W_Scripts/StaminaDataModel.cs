@@ -37,5 +37,6 @@ namespace W_Scripts
             AddStamina();
             PlayerPrefs.SetInt(LockStamina, lockStamina);
         }
+        
     }
 }

@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 namespace W_Scripts
@@ -12,11 +13,6 @@ namespace W_Scripts
         {
             View = FindObjectOfType<StaminaView>();
             Presenter = new(View);
-        }
-
-        public void LoadNextScene()
-        {
-            Presenter.LoadNextScene();
         }
 
         public void AddStamina()

@@ -26,8 +26,6 @@ namespace W_Scripts.UI
                 case SlotState.Has:
                     Has.gameObject.SetActive(true);
                     Lock.gameObject.SetActive(false);
-                    Debug.Log("？");
-
                     break;
                 case SlotState.Lock:
                     Has.gameObject.SetActive(false);

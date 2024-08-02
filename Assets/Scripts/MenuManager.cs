@@ -47,7 +47,7 @@ public class MenuManager : MonoBehaviour
 
     public void StartGame()
     {
-        StaminaSystem.LoadNextScene();
+        StaminaSystem.RemoveStamina();
         SceneManager.LoadScene(CurrentIndex);
     }
 

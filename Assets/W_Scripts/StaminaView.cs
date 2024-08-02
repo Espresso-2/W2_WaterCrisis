@@ -18,9 +18,9 @@ namespace W_Scripts
             {
                 slots[i].CurrentState = SlotState.Has;
             }
-            for (int i = slots.Length-1; i > StaminaDataModel.lockStamina; i--)
+            for (int i = slots.Length; i > StaminaDataModel.lockStamina; i--)
             {
-                slots[i].CurrentState = SlotState.Lock;
+                slots[i-1].CurrentState = SlotState.Lock;
             }
            
         }

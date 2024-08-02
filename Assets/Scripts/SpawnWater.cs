@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Spine;
+using Spine.Unity;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -10,6 +12,7 @@ public class SpawnWater : MonoBehaviour
     public static SpawnWater instance;
     public bool WaterSpawned;
     public float waterDrop = 0;
+    public SkeletonAnimation GetWater;
 
     public void Awake()
     {
@@ -26,6 +29,11 @@ public class SpawnWater : MonoBehaviour
     }
 
     public void SpawnReady()
+    {
+        GetWater.AnimationState.SetAnimation(0, "move", false).Complete += Spawn;
+    }
+
+    private void Spawn(TrackEntry trackentry)
     {
         WaterSpawned = true;
         Water2D_Spawner.instance.SpawnAll();
