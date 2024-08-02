@@ -1,32 +1,37 @@
 using System;
+using UnityEngine;
 
 namespace W_Scripts
 {
-    public class StaminaSystem : SingletonBase<StaminaSystem>
+    public class StaminaSystem : MonoBehaviour
     {
-        private StaminaDataModel Model;
         private StaminaView View;
         private StaminaPresenter Presenter;
-        protected override void Awake()
-        {
-            base.Awake();
-            DontDestroyOnLoad(this);
-        }
 
         private void Start()
         {
-            Model = new();
-            Presenter = new(Model);
             View = FindObjectOfType<StaminaView>();
-            Presenter.AttachView(View);
+            Presenter = new(View);
         }
 
         public void LoadNextScene()
         {
-            if (Presenter!=null)
-            {
-                Presenter.LoadNextScene();
-            }
+            Presenter.LoadNextScene();
+        }
+
+        public void AddStamina()
+        {
+            Presenter.AddStamina();
+        }
+
+        public void RemoveStamina()
+        {
+            Presenter.RemoveStamina();
+        }
+
+        public void UnLockStamina()
+        {
+            Presenter.UnLockStamina();
         }
     }
 }

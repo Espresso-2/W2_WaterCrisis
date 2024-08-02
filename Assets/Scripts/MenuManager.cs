@@ -17,14 +17,14 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private GameObject StartGameButton;
     [SerializeField] private Transform LevelShowRoot;
     [SerializeField] private GameObject Prefab;
-
+    [SerializeField] private StaminaSystem StaminaSystem;
     public static MenuManager Instance;
 
     // Start is called before the first frame update
     protected void Awake()
     {
-        Level.text = "关卡" + LoadLevel;
         Instance = this;
+        Level.text = "关卡" + LoadLevel;
     }
 
     void Start()
@@ -47,7 +47,7 @@ public class MenuManager : MonoBehaviour
 
     public void StartGame()
     {
-        StaminaSystem.Instance.LoadNextScene();
+        StaminaSystem.LoadNextScene();
         SceneManager.LoadScene(CurrentIndex);
     }
 

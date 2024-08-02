@@ -6,22 +6,23 @@ namespace W_Scripts
 {
     public class StaminaView : MonoBehaviour, IStaminaView
     {
-        [SerializeField] private Slot [] slots;
+        [SerializeField] private Slot[] slots;
 
-        public void UpdateUI(StaminaDataModel model)
+        public void UpdateUI()
         {
-            for (int i = 0; i < model.MaxStaminaCount; i++)
+            for (int i = 0; i < StaminaDataModel.maxStamina; i++)
             {
                 slots[i].CurrentState = SlotState.UnLock;
             }
-            for (int i = 0; i < model.LockStaminaCount; i++)
-            {
-                slots[model.MaxStaminaCount-model.LockStaminaCount + i].CurrentState = SlotState.Lock;
-            }
-            for (int i = 0; i < model.CurrentStamina; i++)
+            for (int i = 0; i < StaminaDataModel.currentStamina; i++)
             {
                 slots[i].CurrentState = SlotState.Has;
             }
+            for (int i = slots.Length-1; i > StaminaDataModel.lockStamina; i--)
+            {
+                slots[i].CurrentState = SlotState.Lock;
+            }
+           
         }
     }
 }

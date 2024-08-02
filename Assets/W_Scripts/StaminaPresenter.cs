@@ -3,52 +3,44 @@ namespace W_Scripts
     public class StaminaPresenter
     {
         private IStaminaView staminaView;
-        private readonly StaminaDataModel staminaModel;
+       
 
-        public StaminaPresenter(StaminaDataModel model)
-        {
-            staminaModel = model;
-            staminaModel.Init();
-        }
-
-        public void AttachView(IStaminaView view)
+        public StaminaPresenter(IStaminaView view)
         {
             staminaView = view;
-            staminaView.UpdateUI(staminaModel);
+            UpdateUI();
         }
-
-        public void DestroyView()
-        {
-            staminaView = null;
-        }
-
         public void AddStamina()
         {
-            staminaModel.AddCurrentStamina();
+            StaminaDataModel.AddStamina();
             UpdateUI();
         }
 
         public void RemoveStamina()
         {
-            staminaModel.RemoveCurrentStamina();
+            StaminaDataModel.RemoveStamina();
             UpdateUI();
         }
 
         public void LoadNextScene()
         {
-            DestroyView();
             RemoveStamina();
+            UpdateUI();
         }
 
         public void UnLockStamina()
         {
-            staminaModel.UnLockStamina();
+            StaminaDataModel.UnLockStamina();
             UpdateUI();
         }
         
         private void UpdateUI()
         {
-            staminaView?.UpdateUI(staminaModel);
+            if (staminaView!=null)
+            {
+                staminaView?.UpdateUI();
+
+            }
         }
     }
 }

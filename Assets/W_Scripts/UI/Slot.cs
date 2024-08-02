@@ -8,10 +8,9 @@ namespace W_Scripts.UI
     public class Slot : MonoBehaviour
     {
         [NonSerialized]
-        public SlotState CurrentState;
+        public SlotState CurrentState=SlotState.UnLock;
         private GameObject Has;
         private GameObject Lock;
-        private SlotState PreviousState=SlotState.UnLock;
 
         private void Start()
         {
@@ -21,10 +20,7 @@ namespace W_Scripts.UI
 
         private void Update()
         {
-            if (CurrentState == PreviousState)
-            {
-                return;
-            }
+          
             switch (CurrentState)
             {
                 case SlotState.Has:
@@ -36,14 +32,13 @@ namespace W_Scripts.UI
                 case SlotState.Lock:
                     Has.gameObject.SetActive(false);
                     Lock.gameObject.SetActive(true);
-                    Lock.gameObject.AddComponent<Button>().onClick.AddListener(() => { });
+                  //  Lock.gameObject.AddComponent<Button>().onClick.AddListener(() => { });
                     break;
                 case SlotState.UnLock:
                     Has.gameObject.SetActive(false);
                     Lock.gameObject.SetActive(false);
                     break;
             }
-            PreviousState = CurrentState;
         }
     }
 }

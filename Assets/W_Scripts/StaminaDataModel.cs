@@ -2,62 +2,40 @@ using UnityEngine;
 
 namespace W_Scripts
 {
-    public class StaminaDataModel
+    public static class StaminaDataModel
     {
-        private int currentStamina;
-        private int maxStaminaCount;
-        private int lockStaminaCount;
-        public int CurrentStamina => currentStamina;
-        public int MaxStaminaCount => maxStaminaCount;
-        public int LockStaminaCount => lockStaminaCount;
-        private const string lockStamina = "LockStamina";
+        public static int currentStamina;
+        public static int lockStamina;
+        public static int maxStamina = 10;
+        private const string LockStamina = "LockStamina";
 
-        public void Init()
+        static StaminaDataModel()
         {
-            maxStaminaCount = 10;
-            lockStaminaCount = PlayerPrefs.GetInt(lockStamina, 5);
-            currentStamina = maxStaminaCount - lockStaminaCount;
+            lockStamina = PlayerPrefs.GetInt(LockStamina, 5);
+            currentStamina = maxStamina - lockStamina;
         }
 
-        public void UnLockStamina()
+        public static void AddStamina()
         {
-            if (CheckLockCount())
+            if (currentStamina < maxStamina - lockStamina)
             {
-                Debug.Log("没有可以解锁的");
-                return;
+                currentStamina++;
             }
-            lockStaminaCount--;
-            currentStamina++;
-            PlayerPrefs.SetInt(lockStamina, lockStaminaCount);
         }
 
-        public void AddCurrentStamina()
+        public static void RemoveStamina()
         {
-            if (currentStamina == maxStaminaCount)
+            if (currentStamina > 0)
             {
-                Debug.Log("体力值己满");
-                return;
+                currentStamina--;
             }
-            currentStamina++;
         }
 
-        public void RemoveCurrentStamina()
+        public static void UnLockStamina()
         {
-            if (CheckCurrentStaminaCountIsLow())
-            {
-                Debug.Log("体力值为0不能减少");
-            }
-            currentStamina--;
-        }
-
-        public bool CheckLockCount()
-        {
-            return lockStaminaCount == 0;
-        }
-
-        public bool CheckCurrentStaminaCountIsLow()
-        {
-            return currentStamina <= 0;
+            lockStamina--;
+            AddStamina();
+            PlayerPrefs.SetInt(LockStamina, lockStamina);
         }
     }
 }
