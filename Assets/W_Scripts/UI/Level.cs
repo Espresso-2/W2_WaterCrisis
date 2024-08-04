@@ -14,6 +14,8 @@ namespace W_Scripts.UI
         private GameObject Lock;
         private GameObject Selected;
         private GameObject Animal;
+        [SerializeField]
+        private GameObject[] Golds;
         public bool IsSelected { get; set; }
         public Action<int> OnSelected;
         [NonSerialized] public Text LevelText;
@@ -24,7 +26,7 @@ namespace W_Scripts.UI
             Lock = transform.Find("Lock").gameObject;
             Selected = transform.Find("Selected").gameObject;
             Animal = transform.Find("animal").gameObject;
-            
+            Coins = PlayerPrefs.GetInt("LevelCoin" + LevelText,0);
 
             #region 产生一个随机数让随机选择一个动物形象
 
@@ -36,6 +38,7 @@ namespace W_Scripts.UI
 
         private void Start()
         {
+            ShowGold(Coins);
             LevelText = transform.GetChild(4).GetComponent<Text>();
             LevelText.text = "第" + levelIndex + "关";
         }
@@ -56,6 +59,14 @@ namespace W_Scripts.UI
             Selected.SetActive(value: (IsSelected && !IsLock));
 
             #endregion
+        }
+
+        private void ShowGold(int count)
+        {
+            for (int i = 0; i < count; i++)
+            {
+                Golds[i].SetActive(true);
+            }
         }
     }
 }
