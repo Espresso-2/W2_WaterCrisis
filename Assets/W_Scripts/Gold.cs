@@ -6,12 +6,20 @@ using W_Scripts.Base;
 
 public class Gold : MonoBehaviour
 {
+    private string Key;
+    private bool IsFirst=true;
+    private void Start()
+    {
+        Key = "LevelCoin" + GoldManager.LeveIndex;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("谁接触到了金币----------"+other.name);
-        if (other.gameObject.CompareTag("Metaball_liquid"))
+        if (other.gameObject.CompareTag("Metaball_liquid")&&IsFirst)
         {
-            PlayerPrefs.SetInt("LevelCoin" + GoldManager.LeveIndex, PlayerPrefs.GetInt("LeveCoin" + GoldManager.LeveIndex) + 1);
+            IsFirst = false;
+            PlayerPrefs.SetInt(Key, PlayerPrefs.GetInt(Key)+1) ;
             Destroy(gameObject);
         }
     }

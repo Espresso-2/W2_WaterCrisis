@@ -996,6 +996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602391a9472c45219e3f41f2f25a5e71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RecoverTime: 600
 --- !u!4 &354011868
 Transform:
   m_ObjectHideFlags: 0
@@ -3104,7 +3105,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231257284}
   m_CullTransparentMesh: 1
---- !u!84 &1348576327
+--- !u!84 &1261520869
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5118,7 +5119,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TargetTexture
       value: 
-      objectReference: {fileID: 1348576327}
+      objectReference: {fileID: 1261520869}
     - target: {fileID: 6200582024934476846, guid: 260f8a927a5e2c3479cee6ec91f61b88,
         type: 3}
       propertyPath: orthographic size

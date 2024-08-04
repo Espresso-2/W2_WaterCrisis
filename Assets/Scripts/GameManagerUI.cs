@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.Serialization;
+using W_Scripts;
 
 public class GameManagerUI : MonoBehaviour
 {
@@ -50,6 +51,7 @@ public class GameManagerUI : MonoBehaviour
 
     public void NextLevel()
     {
+        StaminaDataModel.RemoveStamina();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

@@ -14,8 +14,7 @@ namespace W_Scripts.UI
         private GameObject Lock;
         private GameObject Selected;
         private GameObject Animal;
-        [SerializeField]
-        private GameObject[] Golds;
+        [SerializeField] private GameObject[] Golds;
         public bool IsSelected { get; set; }
         public Action<int> OnSelected;
         [NonSerialized] public Text LevelText;
@@ -26,7 +25,6 @@ namespace W_Scripts.UI
             Lock = transform.Find("Lock").gameObject;
             Selected = transform.Find("Selected").gameObject;
             Animal = transform.Find("animal").gameObject;
-            Coins = PlayerPrefs.GetInt("LevelCoin" + LevelText,0);
 
             #region 产生一个随机数让随机选择一个动物形象
 
@@ -38,7 +36,17 @@ namespace W_Scripts.UI
 
         private void Start()
         {
+            //由于生成一个游戏对象时游戏物体的生命周期开始运转 Awake OnEnable 几乎同时执行尽管描述Awake要比OnEnable执行的快但实际可能会慢也可能会快，
+            //当在生成时获取脚本传入字段的值必须要等组件初始化完毕也就是在Awake与OnEnable后
+            //才正确赋值所以不要将金币的获取放在Awake中执行，因为还没有数值
+
+            #region 获取关卡所得的金币数
+
+            Coins = PlayerPrefs.GetInt("LevelCoin" + levelIndex, 0);
             ShowGold(Coins);
+
+            #endregion
+
             LevelText = transform.GetChild(4).GetComponent<Text>();
             LevelText.text = "第" + levelIndex + "关";
         }
@@ -52,6 +60,7 @@ namespace W_Scripts.UI
         private void Update()
         {
             #region 更新视图窗口该显示当前选关的状态
+
             //当前关卡索引大于通过关卡的索引证明是还未通过则返回false,其他都为True
             IsLock = MenuManager.Instance.LoadLevel < levelIndex;
             Lock.SetActive(IsLock);
