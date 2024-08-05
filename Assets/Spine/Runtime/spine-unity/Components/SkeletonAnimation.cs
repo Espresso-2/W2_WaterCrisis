@@ -208,6 +208,8 @@ namespace Spine.Unity {
 
 			if (updateMode == UpdateMode.OnlyAnimationStatus)
 				return;
+			
+			
 			ApplyAnimation();
 		}
 

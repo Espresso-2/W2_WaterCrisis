@@ -6,19 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="16d6e1f1-2403-48e6-b929-93f0cc777b07" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Resources/ChartboostSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Chartboost/Resources/ChartboostSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManagerUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RotatePlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RotatePlatform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Prefab/gold.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Prefab/gold.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Base/GoldManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Base/GoldManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Gold.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Gold.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/StaminaSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/StaminaSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/bg_2_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Prefab/ShowLevel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Prefab/ShowLevel.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/Level.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/SettingPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/SettingPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +113,8 @@
       <workItem from="1722348211467" duration="13366000" />
       <workItem from="1722520314892" duration="11850000" />
       <workItem from="1722609494795" duration="8616000" />
-      <workItem from="1722748943977" duration="11600000" />
+      <workItem from="1722748943977" duration="13421000" />
+      <workItem from="1722868566842" duration="6032000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,5 @@
 using System;
+using Spine.Unity;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
@@ -18,6 +19,9 @@ namespace W_Scripts.UI
         public bool IsSelected { get; set; }
         public Action<int> OnSelected;
         [NonSerialized] public Text LevelText;
+        public SkeletonGraphic CurrentAnimation { get; private set; }
+
+        public SkeletonGraphic Track;
 
         private void Awake()
         {
@@ -28,8 +32,9 @@ namespace W_Scripts.UI
 
             #region 产生一个随机数让随机选择一个动物形象
 
-            var range = Random.Range(0, 2);
+            var range = Random.Range(0, 3);
             Animal.transform.GetChild(range).gameObject.SetActive(true);
+            CurrentAnimation = Animal.transform.GetChild(range).GetComponent<SkeletonGraphic>();
 
             #endregion
         }
@@ -54,6 +59,9 @@ namespace W_Scripts.UI
         public void OnUnLockClick()
         {
             IsSelected = true;
+            CurrentAnimation.timeScale = 1;
+            CurrentAnimation.AnimationState.SetAnimation(0, CurrentAnimation.startingAnimation, false);
+            Track.AnimationState.SetAnimation(0, "lun", false);
             OnSelected?.Invoke(levelIndex);
         }
 
