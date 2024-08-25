@@ -5,103 +5,557 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d6e1f1-2403-48e6-b929-93f0cc777b07" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/W_Scripts/AdManager/DouyinAdManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/W_Scripts/AdManager/DouyinAdManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Chartboost.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Chartboost.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/CBCleanup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/CBCleanup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/CBManifestEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/CBManifestEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/CBPostProcess.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/CBPostProcess.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/CBSettingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/CBSettingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/ChartboostDependencies.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/ChartboostDependencies.xml.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/LICENSE.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXBuildFile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXBuildFile.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXBuildPhase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXBuildPhase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXDictionary.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXDictionary.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXFileReference.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXFileReference.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXGroup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXGroup.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXParser.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXParser.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXProject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/PBXProject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/Readme.mdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/Readme.mdown.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCBuildConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCBuildConfiguration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCConfigurationList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCConfigurationList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCFileOperationQueue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCFileOperationQueue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCMod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCMod.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCProject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCProject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCSourceFile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCSourceFile.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCTarget.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCTarget.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCodeEditorMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XCodeEditorMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XMiniJSON.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeEditor/XMiniJSON.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeSettings.projmods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Editor/XCodeSettings.projmods.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Examples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Examples/ChartboostExample.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Examples/ChartboostExample/Chartboost-LogoH1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Examples/ChartboostExample/Chartboost-LogoH1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Examples/ChartboostExample/ChartboostExample.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Examples/ChartboostExample/ChartboostExample.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Examples/ChartboostExample/ChartboostExample.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Examples/ChartboostExample/ChartboostExample.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Examples/ChartboostExample/Chartboost_icon_144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Examples/ChartboostExample/Chartboost_icon_144.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Resources/ChartboostSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Resources/ChartboostSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Scripts/CBExternal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Scripts/CBExternal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Scripts/CBInPlay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Scripts/CBInPlay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Scripts/CBJSON.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Scripts/CBJSON.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Scripts/CBSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Scripts/CBSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Scripts/Chartboost.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Chartboost/Scripts/Chartboost.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Gold.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Gold.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/IStaminaView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/IStaminaView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/StaminaDataModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/StaminaDataModel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/StaminaPresenter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/StaminaPresenter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/StaminaSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/StaminaSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/StaminaView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/StaminaView.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Splash.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Splash.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/CHANGELOG.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity-editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity-editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Asset Types.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Asset Types/AnimationReferenceAssetEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Asset Types/AnimationReferenceAssetEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Asset Types/SkeletonDataAssetInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Asset Types/SpineAtlasAssetInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Asset Types/SpineAtlasAssetInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Asset Types/SpineSpriteAtlasAssetInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Asset Types/SpineSpriteAtlasAssetInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/BoneFollowerGraphicInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/BoneFollowerGraphicInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/BoneFollowerInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/BoneFollowerInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/BoundingBoxFollowerGraphicInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/BoundingBoxFollowerGraphicInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/BoundingBoxFollowerInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/BoundingBoxFollowerInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/PointFollowerInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/PointFollowerInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonAnimationInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonAnimationInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonGraphicCustomMaterialsInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonGraphicCustomMaterialsInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonGraphicInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonGraphicInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonMecanimInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonMecanimInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonMecanimRootMotionInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonMecanimRootMotionInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonRendererCustomMaterialsInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonRendererCustomMaterialsInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonRendererInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonRendererInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonRootMotionBaseInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonRootMotionBaseInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonRootMotionInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonRootMotionInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonUtilityBoneInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonUtilityBoneInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonUtilityInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Components/SkeletonUtilityInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/AtlasAsset Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/AtlasAsset Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/SkeletonDataAsset Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/SkeletonDataAsset Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animation.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animationRoot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-animationRoot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-attachment.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-bone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-bone.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boneNib.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boneNib.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boundingBox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-boundingBox.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-clipping.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-clipping.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintIK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintIK.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintNib.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintNib.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintPath.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintPath.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintTransform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraintTransform.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-constraints.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-event.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-event.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-hingeChain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-hingeChain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-image.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-mesh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-mesh.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-null.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-null.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-path.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-path.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-point.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-poseBones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-poseBones.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeleton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeleton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeletonUtility.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skeletonUtility.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinPlaceholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinPlaceholder.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinsRoot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-skinsRoot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slotRoot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-slotRoot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-spine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-spine.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-subMeshRenderer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-subMeshRenderer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-warning.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-weights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/GUI/icon-weights.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/ImporterPresets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/PMAPresetTemplate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/PMAPresetTemplate.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/PMATexturePreset.preset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/PMATexturePreset.preset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/StraightAlphaPreset.preset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/StraightAlphaPreset.preset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/StraightAlphaPresetTemplate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/ImporterPresets/StraightAlphaPresetTemplate.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Menus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Menus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Resources/SpineAssetDatabaseMarker.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Resources/SpineAssetDatabaseMarker.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Shaders/SpineShaderWithOutlineGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Shaders/SpineShaderWithOutlineGUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Shaders/SpineSpriteShaderGUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Shaders/SpineSpriteShaderGUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/SpineAttributeDrawers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/SpineAttributeDrawers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/AssetDatabaseAvailabilityDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/AssetDatabaseAvailabilityDetector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/AssetUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/AssetUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/BlendModeMaterialsUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/BlendModeMaterialsUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/BuildSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/BuildSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/DataReloadHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/DataReloadHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/Icons.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/Icons.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/Instantiation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/Instantiation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/Preferences.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/Preferences.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/SpineEditorUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/SpineHandles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/SpineHandles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/SpineInspectorUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/SpineInspectorUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/SpineMaskUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Utility/SpineMaskUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Windows.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Windows/SkeletonBaker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Windows/SkeletonBaker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Windows/SkeletonBakingWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Windows/SkeletonBakingWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Windows/SkeletonDebugWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Windows/SkeletonDebugWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Windows/SpinePreferences.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Windows/SpinePreferences.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Windows/SpriteAtlasImportWindow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Editor/Windows/SpriteAtlasImportWindow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Modules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Modules/SkeletonRenderSeparator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Modules/SkeletonRenderSeparator/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Modules/SkeletonRenderSeparator/Editor/SkeletonPartsRendererInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Modules/SkeletonRenderSeparator/Editor/SkeletonPartsRendererInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Modules/SkeletonRenderSeparator/Editor/SkeletonRenderSeparatorInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Modules/SkeletonRenderSeparator/Editor/SkeletonRenderSeparatorInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Modules/SlotBlendModes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Modules/SlotBlendModes/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Modules/SlotBlendModes/Editor/SlotBlendModesEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Editor/spine-unity/Modules/SlotBlendModes/Editor/SlotBlendModesEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Animation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Animation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/AnimationState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/AnimationState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/AnimationStateData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/AnimationStateData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Atlas.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Atlas.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/AtlasAttachmentLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/AtlasAttachmentLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/Attachment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/Attachment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/AttachmentLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/AttachmentLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/AttachmentType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/AttachmentType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/BoundingBoxAttachment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/BoundingBoxAttachment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/ClippingAttachment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/ClippingAttachment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/MeshAttachment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/MeshAttachment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/PathAttachment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/PathAttachment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/PointAttachment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/PointAttachment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/RegionAttachment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/RegionAttachment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/VertexAttachment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Attachments/VertexAttachment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/BlendMode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/BlendMode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Bone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Bone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/BoneData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/BoneData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Collections.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Collections/OrderedDictionary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Collections/OrderedDictionary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/ConstraintData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/ConstraintData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Event.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Event.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/EventData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/EventData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/ExposedList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/ExposedList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/IUpdatable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/IUpdatable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/IkConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/IkConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/IkConstraintData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/IkConstraintData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Json.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Json.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/MathUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/MathUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/PathConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/PathConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/PathConstraintData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/PathConstraintData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Skeleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Skeleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SkeletonBinary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SkeletonBinary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SkeletonBounds.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SkeletonBounds.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SkeletonClipping.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SkeletonClipping.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SkeletonData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SkeletonData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SkeletonJson.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SkeletonJson.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Skin.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Skin.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Slot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Slot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SlotData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/SlotData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/TransformConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/TransformConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/TransformConstraintData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/TransformConstraintData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Triangulator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-csharp/Triangulator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/AnimationReferenceAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/AnimationReferenceAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/AtlasAssetBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/AtlasAssetBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/BlendModeMaterials.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/BlendModeMaterials.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/EventDataReferenceAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/EventDataReferenceAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/RegionlessAttachmentLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/RegionlessAttachmentLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataCompatibility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataCompatibility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataModifierAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataModifierAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/SpineAtlasAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/SpineAtlasAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/SpineSpriteAtlasAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Asset Types/SpineSpriteAtlasAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/Following.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollower.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollower.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollowerGraphic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollowerGraphic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollower.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollower.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollowerGraphic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollowerGraphic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/Following/PointFollower.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/Following/PointFollower.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/RootMotion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonMecanimRootMotion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonMecanimRootMotion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotionBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotionBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonGraphic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonGraphic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonMecanim.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonMecanim.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonPartsRenderer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonPartsRenderer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonRenderSeparator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonRenderSeparator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonGraphicCustomMaterials.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonGraphicCustomMaterials.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonRendererCustomMaterials.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonRendererCustomMaterials.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/ActivateBasedOnFlipDirection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/ActivateBasedOnFlipDirection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowSkeletonUtilityRootRotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowSkeletonUtilityRootRotation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityBone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityBone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityConstraint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityConstraint.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Deprecated.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Deprecated/SlotBlendModes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Deprecated/SlotBlendModes/SlotBlendModes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Deprecated/SlotBlendModes/SlotBlendModes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/ISkeletonAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/ISkeletonAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicDefault.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicDefault.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicDefaultOutline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicDefaultOutline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicTintBlack.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicTintBlack.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicTintBlackOutline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Materials/SkeletonGraphicTintBlackOutline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Mesh Generation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Mesh Generation/DoubleBuffered.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Mesh Generation/DoubleBuffered.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshRendererBuffers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshRendererBuffers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Mesh Generation/SkeletonRendererInstruction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Mesh Generation/SkeletonRendererInstruction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Mesh Generation/SpineMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Mesh Generation/SpineMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Modules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Modules/TK2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Modules/TK2D/SpriteCollectionAttachmentLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Modules/TK2D/SpriteCollectionAttachmentLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/BlendModes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Additive.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Additive.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Multiply.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Multiply.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Screen.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/BlendModes/Spine-Skeleton-PMA-Screen.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-DepthOnlyPass.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-DepthOnlyPass.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Outline-Common.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Outline-Common.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Lit-Common-Shadow.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Lit-Common-Shadow.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Lit-Common.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Lit-Common.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Tint-Common.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/CGIncludes/Spine-Skeleton-Tint-Common.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Additive-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Additive-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Multiply-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Multiply-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Screen-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/BlendModes/Spine-Skeleton-PMA-Screen-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/CGIncludes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/CGIncludes/Spine-Outline-Pass.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/CGIncludes/Spine-Outline-Pass.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Fill-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Fill-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-ZWrite-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Lit-ZWrite-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-OutlineOnly-ZWrite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-OutlineOnly-ZWrite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Tint-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-Tint-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-TintBlack-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Skeleton-TintBlack-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Special-Skeleton-Grayscale-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Spine-Special-Skeleton-Grayscale-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesPixelLit-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesPixelLit-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesUnlit-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesUnlit-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesVertexLit-Outline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Outline/Sprite/SpritesVertexLit-Outline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic-TintBlack.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/SkeletonGraphic/Spine-SkeletonGraphic.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Fill.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Fill.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Lit-ZWrite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Lit-ZWrite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Lit.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Lit.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Tint.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-Tint.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-TintBlack.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton-TintBlack.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Skeleton.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Special-Skeleton-Grayscale.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Spine-Special-Skeleton-Grayscale.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/ShaderMaths.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/ShaderMaths.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/ShaderShared.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/ShaderShared.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteLighting.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteLighting.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpritePixelLighting.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpritePixelLighting.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteShadows.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteShadows.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteSpecular.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteSpecular.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteUnlit.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteUnlit.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteVertexLighting.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CGIncludes/SpriteVertexLighting.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthNormalsTexture.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthNormalsTexture.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthTexture.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraDepthTexture.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraNormalsTexture.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/CameraNormalsTexture.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpriteDepthNormalsTexture.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpriteDepthNormalsTexture.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesPixelLit.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesPixelLit.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesUnlit.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesUnlit.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesVertexLit.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Sprite/SpritesVertexLit.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Utility.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Utility/Hidden-Spine-Bones.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Utility/Hidden-Spine-Bones.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Shaders/Utility/HiddenPass.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/BlendModeMaterialsAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/BlendModeMaterialsAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/Default BlendModeMaterials.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/Default BlendModeMaterials.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAAdditive.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAAdditive.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAMultiply.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAMultiply.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAScreen.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/SkeletonPMAScreen.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SpineAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/SpineAttributes.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/AtlasUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/AtlasUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/AttachmentRegionExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/AttachmentRegionExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/MaterialChecks.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/MaterialChecks.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/SkeletonExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/SkeletonExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/SkinUtilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/SkinUtilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/TimelineExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/TimelineExtensions.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationComplete.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationComplete.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationEnd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationEnd.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineTrackEntryEnd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineTrackEntryEnd.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spine/version.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/bg_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_logo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/loading_logo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_progress_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/loading_progress_2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +570,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b04515bc4ae4c04b42ff5697e9b2db67f600/d2/ae77cf74/IStarkAPI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/e2/e6e5235d/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/Base/SingletonBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/UI/Loading.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/UI/SettingPanel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -202,6 +657,7 @@
       <workItem from="1722748943977" duration="13421000" />
       <workItem from="1722868566842" duration="6926000" />
       <workItem from="1723469721431" duration="9243000" />
+      <workItem from="1724559222023" duration="3543000" />
     </task>
     <servers />
   </component>
