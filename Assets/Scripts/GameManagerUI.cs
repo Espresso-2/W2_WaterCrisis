@@ -20,7 +20,7 @@ public class GameManagerUI : MonoBehaviour
 
     private void Start()
     {
-        LevelText.text = "第 " + PlayerPrefs.GetInt("Level", 1) + " 关";
+        LevelText.text = "第 " + SceneManager.GetActiveScene().buildIndex + " 关";
         ReStartRect = ReStart.gameObject.GetComponent<RectTransform>();
         ReadyRect = Ready.gameObject.GetComponent<RectTransform>();
         spawnWater = GetComponent<SpawnWater>();
