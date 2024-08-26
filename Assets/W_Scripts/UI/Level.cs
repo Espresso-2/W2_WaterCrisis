@@ -60,8 +60,9 @@ namespace W_Scripts.UI
         {
             IsSelected = true;
             CurrentAnimation.timeScale = 1;
-            CurrentAnimation.AnimationState.SetAnimation(0, CurrentAnimation.startingAnimation, false);
-            Track.AnimationState.SetAnimation(0, "lun", false);
+            CurrentAnimation.AnimationState.SetAnimation(0, CurrentAnimation.startingAnimation, true);
+            Track.timeScale = 1;
+            Track.AnimationState.SetAnimation(0, "lun", true);
             OnSelected?.Invoke(levelIndex);
         }
 
@@ -76,6 +77,12 @@ namespace W_Scripts.UI
             Selected.SetActive(value: (IsSelected && !IsLock));
 
             #endregion
+
+            if (!IsSelected && CurrentAnimation != null && Track != null)
+            {
+                CurrentAnimation.timeScale = 0;
+                Track.timeScale = 0;
+            }
         }
 
         private void ShowGold(int count)
