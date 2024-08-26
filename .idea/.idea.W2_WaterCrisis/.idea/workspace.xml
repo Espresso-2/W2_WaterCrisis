@@ -7,173 +7,9 @@
     <list default="true" id="16d6e1f1-2403-48e6-b929-93f0cc777b07" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManagerUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/326703-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/326703-64.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Artboard – 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Artboard – 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/ParticleTexture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/ParticleTexture.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Pie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Pie.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Polygon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Polygon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/TextureInterface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/TextureInterface.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/bg_2_3_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_0_reset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_0_reset.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_0_start.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_0_start.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_gift.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_gift.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_gift_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_gift_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_set.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_set.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_set_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_set_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_video.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_video.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_video_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_1_video_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2_1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2_1_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2_2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_2_2_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_go.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/btn_go.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/drift.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/drift.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/form.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/form.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/game_icon_gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/game_icon_gold.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/gg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/gg.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/home_btn_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/home_btn_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/home_btn_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/home_btn_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/home_cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/home_cat.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/home_chiken.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/home_chiken.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/home_cow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/home_cow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/icon_ad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/icon_ad.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/level_progress.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/level_progress.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_logo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_progress_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_progress_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_progress_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_progress_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_words.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/loading_words.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/plat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/plat.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/plat2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/plat2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/rocks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/rocks.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_bg_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_bg_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_bg_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_bg_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_btn.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_off.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_on.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_title.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/set_title.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/time_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/time_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/time_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/time_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/time_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/time_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/tips_1_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/tips_1_new.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/tips_2_0_gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/tips_2_0_gold.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/tips_2_1_gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/tips_2_1_gold.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/tips_2_2_gold.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/tips_2_2_gold.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/unwall_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/unwall_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_0_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_0_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/wall_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_1_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_1_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_2_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_2_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_2_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/water_2_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图5_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图5_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/效果图6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Base/PanelBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Base/PanelBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Texture.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Texture.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Gold/Gold.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Gold/Gold.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +113,8 @@
       <workItem from="1722748943977" duration="13421000" />
       <workItem from="1722868566842" duration="6926000" />
       <workItem from="1723469721431" duration="9243000" />
-      <workItem from="1724559222023" duration="7958000" />
+      <workItem from="1724559222023" duration="8147000" />
+      <workItem from="1724676315463" duration="1206000" />
     </task>
     <servers />
   </component>

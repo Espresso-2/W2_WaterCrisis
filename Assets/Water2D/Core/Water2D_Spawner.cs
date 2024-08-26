@@ -1,4 +1,6 @@
-﻿namespace Water2D
+﻿using System;
+
+namespace Water2D
 {
     using UnityEngine;
     using System.Collections;
@@ -31,9 +33,6 @@
         }
 
         [Title("Water 2D", 20f, 20)] [Space(25f)]
-        /// <summary>
-        /// Drops objects array.
-        /// </summary>
         public GameObject[] WaterDropsObjects;
 
         /// <summary>
@@ -59,15 +58,9 @@
         public Color StrokeColor = new Color(4 / 255f, 156 / 255f, 1f);
 
         [Separator()] [Header("Speed & direction")]
-        /// <summary>
-        /// The initial speed of particles after spawn.
-        /// </summary>
         public Vector2 initSpeed = new Vector2(1f, -1.8f);
 
         [Separator()] [Header("Apply setup changes over lifetime")]
-        /// <summary>
-        /// The dynamic changes can be apply ?.
-        /// </summary>
         public bool DynamicChanges = true;
 
         [Space(20f)] [Header("Runtime actions")] [ButtonAttribute("Start!", "Water2D.Water2D_Spawner", "RunSpawner")]
@@ -119,13 +112,22 @@
 
         GameObject _parent;
 
+        private List<MetaballParticleClass> balls = new();
+
+        private bool IsFiled;
+
         void Start()
         {
             //Application.targetFrameRate = 60;
+            //创建新游戏物体
             _parent = new GameObject("_metaBalls");
+            //将游戏物体在Herarchy中隐藏
             _parent.hideFlags = HideFlags.HideInHierarchy;
+            //设置水离子的父物体
             WaterDropsObjects[0].transform.SetParent(_parent.transform);
+            //设置子物体大小
             WaterDropsObjects[0].transform.localScale = new Vector3(size, size, 1f);
+            //设置子物体隐藏
             WaterDropsObjects[0].GetComponent<MetaballParticleClass>().Active = false;
             for (int i = 1; i < WaterDropsObjects.Length; i++)
             {
@@ -133,6 +135,7 @@
                     Instantiate(WaterDropsObjects[0], gameObject.transform.position,
                         new Quaternion(0, 0, 0, 0)) as GameObject;
                 WaterDropsObjects[i].GetComponent<MetaballParticleClass>().Active = false;
+                balls.Add(WaterDropsObjects[i].GetComponent<MetaballParticleClass>());
                 WaterDropsObjects[i].transform.SetParent(_parent.transform);
                 WaterDropsObjects[i].transform.localScale = new Vector3(size, size, 1f);
                 WaterDropsObjects[i].layer = WaterDropsObjects[0].layer;
@@ -143,6 +146,26 @@
             microSpawns = new List<microSpawn>(5); // Up to 5 microspwawn
 
             // instance.Spawn();
+        }
+
+        private void Update()
+        {
+        }
+
+        public IEnumerator Check()
+        {
+            while (!IsFiled)
+            {
+                foreach (var ball in balls)
+                {
+                    if (ball.Active == false)
+                    {
+                        IsFiled = true;
+                        SpawnWater.instance.Filed.SetActive(true);
+                    }
+                }
+                yield return null;
+            }
         }
 
         public void RunMicroSpawn(Vector3 pos, int amount, Vector2 initVel)
@@ -177,6 +200,7 @@
         public void SpawnAll()
         {
             SpawnAllParticles(gameObject.transform.position, initSpeed, DefaultCount);
+            StartCoroutine(Check());
         }
 
         public void Spawn(int count, Vector3 pos)
