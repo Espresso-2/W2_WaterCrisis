@@ -8,7 +8,7 @@ public class WinPanel : PanelBase
     [SerializeField] private GameObject GetMAxCoinButton;
     protected override void OnEnable()
     {
-        var CoinCount = PlayerPrefs.GetInt("LevelCoin" + GoldManager.LeveIndex);
+        var CoinCount = UnityEngine.PlayerPrefs.GetInt("LevelCoin"+GoldManager.Instance.LeveIndex,0);
         if (CoinCount == 0)
         {
             foreach (var son in CoinSon)

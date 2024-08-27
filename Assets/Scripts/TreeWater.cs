@@ -32,10 +32,15 @@ public class TreeWater : MonoBehaviour
         if (WaterDrops >= 80 && !IsWin)
         {
             IsWin = true;
-            Win.SetActive(IsWin);
-            var Level = SceneManager.GetActiveScene().buildIndex;
-            PlayerPrefs.SetInt("Level", Level + 1);
-            //TODO:埋点
+            Invoke(nameof(ShowWin),1f);
+           
+            PlayerPrefs.SetInt("Level",PlayerPrefs.GetInt("Level",0)+1);
+            PlayerPrefs.Save();
         }
+    }
+
+    private void ShowWin()
+    {
+        Win.SetActive(IsWin);
     }
 }

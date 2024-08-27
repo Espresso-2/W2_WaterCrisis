@@ -8,7 +8,7 @@ using W_Scripts.UI;
 public class MenuManager : MonoBehaviour
 {
     [SerializeField] private Text Level;
-    public int LoadLevel => PlayerPrefs.GetInt("Level", 1);
+    public int LoadLevel => PlayerPrefs.GetInt("Level",1);
 
     private Dictionary<int, Level> CurrentLevelShows = new();
 

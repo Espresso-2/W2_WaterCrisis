@@ -154,7 +154,7 @@ namespace Water2D
 
         public IEnumerator Check()
         {
-            while (!IsFiled)
+            while (!IsFiled && !TreeWater.IsWin)
             {
                 foreach (var ball in balls)
                 {
