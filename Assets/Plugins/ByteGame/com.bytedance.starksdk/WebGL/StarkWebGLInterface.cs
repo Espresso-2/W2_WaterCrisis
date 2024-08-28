@@ -1,4 +1,3 @@
-using System;
 using System.Runtime.InteropServices;
 using UnityEngine.Scripting;
 
@@ -6,10 +5,9 @@ using UnityEngine.Scripting;
 
 namespace StarkSDKSpace
 {
-    public delegate void GetFontDataDelegate(IntPtr pBuffer,int length);
     public class StarkWebGLInterface
     {
-#if (UNITY_WEBPLAYER || UNITY_WEBGL)
+#if UNITY_WEBPLAYER || UNITY_WEBGL
         //以下接口为Web使用，用于调用JS代码。
         [method: Preserve]
         [DllImport("__Internal")]
@@ -26,9 +24,6 @@ namespace StarkSDKSpace
         [method: Preserve]
         [DllImport("__Internal")]
         public static extern string unityMixCallJs(string msg);
-        
-        [DllImport("__Internal")]
-        public static extern void StarkGetSystemFont(GetFontDataDelegate onFontData);
 #else
         public static void unityCallJs(string msg)
         {
@@ -47,10 +42,6 @@ namespace StarkSDKSpace
         public static string unityMixCallJs(string msg)
         {
             return "";
-        }
-        public static void StarkGetSystemFont(GetFontDataDelegate onFontData)
-        {
-            onFontData?.Invoke(IntPtr.Zero, 0);
         }
 #endif
     }

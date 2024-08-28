@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using W_Scripts.Base;
 
 public class TreeWater : MonoBehaviour
@@ -28,12 +29,9 @@ public class TreeWater : MonoBehaviour
         if (WaterDrops >= 80 && !IsWin)
         {
             IsWin = true;
-            Invoke(nameof(ShowWin), 1f);
+            PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level") + 1);
+            PlayerPrefs.Save();
+            Win.SetActive(IsWin);
         }
-    }
-
-    private void ShowWin()
-    {
-        Win.SetActive(IsWin);
     }
 }

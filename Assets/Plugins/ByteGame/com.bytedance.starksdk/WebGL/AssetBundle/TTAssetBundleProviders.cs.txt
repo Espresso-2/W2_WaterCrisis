@@ -80,7 +80,7 @@ namespace UnityEngine.ResourceManagement
                 completedRequests.Clear();
                 foreach (UnityWebRequestAsyncOperation webRequestAsyncOp in s_ActiveRequests)
                 {
-                    if (TTUnityWebRequestUtilities.IsAssetBundleDownloaded(webRequestAsyncOp))
+                    if (UnityWebRequestUtilities.IsAssetBundleDownloaded(webRequestAsyncOp))
                         completedRequests.Add(webRequestAsyncOp);
                 }
 
@@ -266,7 +266,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
                     }
                     else
                     {
-                        if (ExtractKeyAndSubKey(assetPath, out string mainPath, out string subKey))
+                        if (ResourceManagerConfig.ExtractKeyAndSubKey(assetPath, out string mainPath, out string subKey))
                         {
                             subObjectName = subKey;
 #if !UNITY_2021_1_OR_NEWER
@@ -385,35 +385,6 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
             public float ProgressCallback()
             {
                 return m_RequestOperation != null ? m_RequestOperation.progress : 0.0f;
-            }
-            
-            /// <summary>
-            /// Extracts main and subobject keys if properly formatted
-            /// </summary>
-            /// <param name="keyObj">The key as an object.</param>
-            /// <param name="mainKey">The key of the main asset.  This will be set to null if a sub key is not found.</param>
-            /// <param name="subKey">The key of the sub object.  This will be set to null if not found.</param>
-            /// <returns></returns>
-            internal static bool ExtractKeyAndSubKey(object keyObj, out string mainKey, out string subKey)
-            {
-                var key = keyObj as string;
-                if (key != null)
-                {
-                    var i = key.IndexOf('[');
-                    if (i > 0)
-                    {
-                        var j = key.LastIndexOf(']');
-                        if (j > i)
-                        {
-                            mainKey = key.Substring(0, i);
-                            subKey = key.Substring(i + 1, j - (i + 1));
-                            return true;
-                        }
-                    }
-                }
-                mainKey = null;
-                subKey = null;
-                return false;
             }
         }
 
@@ -680,7 +651,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
             //We don't want to wait for request op to complete if it's a LoadFromFileAsync. Only UWR will complete in a tight loop like this.
             if (m_RequestOperation is UnityWebRequestAsyncOperation op)
             {
-                while (!TTUnityWebRequestUtilities.IsAssetBundleDownloaded(op))
+                while (!UnityWebRequestUtilities.IsAssetBundleDownloaded(op))
                     Thread.Sleep(k_WaitForWebRequestMainThreadSleep);
 #if ENABLE_ASYNC_ASSETBUNDLE_UWR
                 if (m_Source == BundleSource.Cache)
@@ -907,8 +878,8 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
             UnityWebRequestAsyncOperation remoteReq = op as UnityWebRequestAsyncOperation;
             var webReq = remoteReq?.webRequest;
             var downloadHandler = webReq?.downloadHandler as DownloadHandlerTTAssetBundle;
-            TTUnityWebRequestResult uwrResult = null;
-            if (webReq != null && !TTUnityWebRequestUtilities.RequestHasErrors(webReq, out uwrResult))
+            UnityWebRequestResult uwrResult = null;
+            if (webReq != null && !UnityWebRequestUtilities.RequestHasErrors(webReq, out uwrResult))
             {
                 if (!m_Completed)
                 {
@@ -932,7 +903,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
                     uwrResult.Error = "Request timeout";
                 webReq = m_WebRequestQueueOperation.m_WebRequest;
                 if (uwrResult == null)
-                    uwrResult = new TTUnityWebRequestResult(m_WebRequestQueueOperation.m_WebRequest);
+                    uwrResult = new UnityWebRequestResult(m_WebRequestQueueOperation.m_WebRequest);
 
                 downloadHandler = webReq.downloadHandler as DownloadHandlerTTAssetBundle;
                 downloadHandler.Dispose();
@@ -969,7 +940,7 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
                     }
                     else
                     {
-                        var exception = new TTRemoteProviderException($"Unable to load asset bundle from : {webReq.url}", m_ProvideHandle.Location, uwrResult);
+                        var exception = new RemoteProviderException($"Unable to load asset bundle from : {webReq.url}", m_ProvideHandle.Location, uwrResult);
                         m_ProvideHandle.Complete<TTAssetBundleResource>(null, false, exception);
                         m_Completed = true;
 #if ENABLE_ADDRESSABLE_PROFILER
@@ -1092,220 +1063,6 @@ namespace UnityEngine.ResourceManagement.ResourceProviders
 #endif
                 return;
             }
-        }
-    }
-}
-
-
-namespace UnityEngine.ResourceManagement.Exceptions
-{
-    /// <summary>
-    /// Class representing an error occured during an operation that remotely fetch data.
-    /// </summary>
-    public class TTRemoteProviderException : ProviderException
-    {
-        /// <summary>
-        /// Creates a new instance of <see cref="ProviderException"/>.
-        /// </summary>
-        /// <param name="message">A message describing the error.</param>
-        /// <param name="location">The resource location that the operation was trying to provide.</param>
-        /// <param name="uwrResult">The result of the unity web request, if any.</param>
-        /// <param name="innerException">The exception that caused the error, if any.</param>
-        public TTRemoteProviderException(string message, IResourceLocation location = null,
-            TTUnityWebRequestResult uwrResult = null, Exception innerException = null)
-            : base(message, location, innerException)
-        {
-            WebRequestResult = uwrResult;
-        }
-
-        ///<inheritdoc/>
-        public override string Message => this.ToString();
-
-        /// <summary>
-        /// The result of the unity web request, if any.
-        /// </summary>
-        public TTUnityWebRequestResult WebRequestResult { get; }
-
-        /// <summary>Provides a new string object describing the exception.</summary>
-        /// <returns>A newly allocated managed string.</returns>
-        public override string ToString()
-        {
-            if (WebRequestResult != null)
-                return
-                    $"{GetType().Name} : {base.Message}\nUnityWebRequest result : {WebRequestResult}\n{InnerException}";
-            else
-                return base.ToString();
-        }
-    }
-}
-
-namespace UnityEngine.ResourceManagement.Util
-{
-    internal class TTUnityWebRequestUtilities
-    {
-        public static bool RequestHasErrors(UnityWebRequest webReq, out TTUnityWebRequestResult result)
-        {
-            result = null;
-            if (webReq == null || !webReq.isDone)
-                return false;
-
-#if UNITY_2020_1_OR_NEWER
-            switch (webReq.result)
-            {
-                case UnityWebRequest.Result.InProgress:
-                case UnityWebRequest.Result.Success:
-                    return false;
-                case UnityWebRequest.Result.ConnectionError:
-                case UnityWebRequest.Result.ProtocolError:
-                case UnityWebRequest.Result.DataProcessingError:
-                    result = new TTUnityWebRequestResult(webReq);
-                    return true;
-                default:
-                    throw new NotImplementedException($"Cannot determine whether UnityWebRequest succeeded or not from result : {webReq.result}");
-            }
-#else
-            var isError = webReq.isHttpError || webReq.isNetworkError;
-            if (isError)
-                result = new UnityWebRequestResult(webReq);
-
-            return isError;
-#endif
-        }
-
-        internal static bool IsAssetBundleDownloaded(UnityWebRequestAsyncOperation op)
-        {
-#if ENABLE_ASYNC_ASSETBUNDLE_UWR
-            var handler = (DownloadHandlerAssetBundle)op.webRequest.downloadHandler;
-            if (handler != null && handler.autoLoadAssetBundle)
-                return handler.isDownloadComplete;
-#endif
-            return op.isDone;
-        }
-    }
-
-    /// <summary>
-    /// Container class for the result of a unity web request.
-    /// </summary>
-    public class TTUnityWebRequestResult
-    {
-        /// <summary>
-        /// Creates a new instance of <see cref="UnityWebRequestResult"/>.
-        /// </summary>
-        /// <param name="request">The unity web request.</param>
-        public TTUnityWebRequestResult(UnityWebRequest request)
-        {
-            string error = request.error;
-#if UNITY_2020_1_OR_NEWER
-            if (request.result == UnityWebRequest.Result.DataProcessingError && request.downloadHandler != null)
-            {
-                // https://docs.unity3d.com/ScriptReference/Networking.DownloadHandler-error.html
-                // When a UnityWebRequest ends with the result, UnityWebRequest.Result.DataProcessingError, the message describing the error is in the download handler
-                error = $"{error} : {request.downloadHandler.error}";
-            }
-
-            Result = request.result;
-#endif
-            Error = error;
-            ResponseCode = request.responseCode;
-            Method = request.method;
-            Url = request.url;
-        }
-
-        /// <summary>Provides a new string object describing the result.</summary>
-        /// <returns>A newly allocated managed string.</returns>
-        public override string ToString()
-        {
-            var sb = new System.Text.StringBuilder();
-
-#if UNITY_2020_1_OR_NEWER
-            sb.AppendLine($"{Result} : {Error}");
-#else
-            if (!string.IsNullOrEmpty(Error))
-                sb.AppendLine(Error);
-#endif
-            if (ResponseCode > 0)
-                sb.AppendLine($"ResponseCode : {ResponseCode}, Method : {Method}");
-            sb.AppendLine($"url : {Url}");
-
-            return sb.ToString();
-        }
-
-        /// <summary>
-        /// A string explaining the error that occured.
-        /// </summary>
-        public string Error { get; internal set; }
-
-        /// <summary>
-        /// The numeric HTTP response code returned by the server, if any.
-        /// See <a href="https://docs.unity3d.com/ScriptReference/Networking.UnityWebRequest-responseCode.html">documentation</a> for more details.
-        /// </summary>
-        public long ResponseCode { get; }
-
-#if UNITY_2020_1_OR_NEWER
-        /// <summary>
-        /// The outcome of the request.
-        /// </summary>
-        public UnityWebRequest.Result Result { get; }
-#endif
-        /// <summary>
-        /// The HTTP verb used by this UnityWebRequest, such as GET or POST.
-        /// </summary>
-        public string Method { get; }
-
-        /// <summary>
-        /// The target url of the request.
-        /// </summary>
-        public string Url { get; }
-        
-        internal bool ShouldRetryDownloadError()
-        {
-            if (string.IsNullOrEmpty(Error))
-                return true;
-            
-            if (Error == "Request aborted" ||
-                Error == "Unable to write data" ||
-                Error == "Malformed URL" ||
-                Error == "Out of memory" ||
-                Error == "Encountered invalid redirect (missing Location header?)" ||
-                Error == "Cannot modify request at this time" ||
-                Error == "Unsupported Protocol" ||
-                Error == "Destination host has an erroneous SSL certificate" ||
-                Error == "Unable to load SSL Cipher for verification" ||
-                Error == "SSL CA certificate error" ||
-                Error == "Unrecognized content-encoding" ||
-                Error == "Request already transmitted" ||
-                Error == "Invalid HTTP Method" ||
-                Error == "Header name contains invalid characters" ||
-                Error == "Header value contains invalid characters" ||
-                Error == "Cannot override system-specified headers"
-               )
-                return false;
-            
-            /* Errors that can be retried:
-                "Unknown Error":
-                "No Internet Connection"
-                "Backend Initialization Error":
-                "Cannot resolve proxy":
-                "Cannot resolve destination host":
-                "Cannot connect to destination host":
-                "Access denied":
-                "Generic/unknown HTTP error":
-                "Unable to read data":
-                "Request timeout":
-                "Error during HTTP POST transmission":
-                "Unable to complete SSL connection":
-                "Redirect limit exceeded":
-                "Received no data in response":
-                "Destination host does not support SSL":
-                "Failed to transmit data":
-                "Failed to receive data":
-                "Login failed":
-                "SSL shutdown failed":
-                "Redirect limit is invalid":
-                "Not implemented":
-                "Data Processing Error, see Download Handler error":
-             */
-            return true;
         }
     }
 }

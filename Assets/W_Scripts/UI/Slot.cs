@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 namespace W_Scripts.UI
 {
+    /// <summary>
+    /// 体力槽
+    /// </summary>
     public class Slot : MonoBehaviour
     {
         [NonSerialized]
@@ -17,7 +20,9 @@ namespace W_Scripts.UI
             Has = transform.GetChild(0).gameObject;
             Lock = transform.GetChild(1).gameObject;
         }
-
+        /// <summary>
+        /// 根据不同的数据更新槽位的变化
+        /// </summary>
         private void Update()
         {
           

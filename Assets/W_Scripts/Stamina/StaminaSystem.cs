@@ -5,14 +5,28 @@ using UnityEngine.UI;
 
 namespace W_Scripts
 {
+    //体力系统
     public class StaminaSystem : MonoBehaviour
     {
+        /// <summary>
+        /// 视图
+        /// </summary>
         private StaminaView View;
+        /// <summary>
+        /// 主持者
+        /// </summary>
         private StaminaPresenter Presenter;
-        /*[SerializeField] private Text text;*/
+        /// <summary>
+        /// 体力恢复时间
+        /// </summary>
         [SerializeField] private float RecoverTime = 600f;
-
+        /// <summary>
+        /// 是否唯一
+        /// </summary>
         private static bool OnlyOne = true;
+        /// <summary>
+        /// 体力单例
+        /// </summary>
         public static StaminaSystem Instance;
 
         private void Awake()
@@ -34,22 +48,31 @@ namespace W_Scripts
             Presenter = new(View);
             StartCoroutine(Recover());
         }
-
+        /// <summary>
+        /// 添加体力
+        /// </summary>
         public void AddStamina()
         {
             Presenter.AddStamina();
         }
-
+        /// <summary>
+        /// 删除体力
+        /// </summary>
         public void RemoveStamina()
         {
             Presenter.RemoveStamina();
         }
-
+        /// <summary>
+        /// 解锁体力
+        /// </summary>
         public void UnLockStamina()
         {
             Presenter.UnLockStamina();
         }
-
+        /// <summary>
+        /// 恢复体力携程
+        /// </summary>
+        /// <returns></returns>
         private IEnumerator Recover()
         {
             while (true) // 使用无限循环

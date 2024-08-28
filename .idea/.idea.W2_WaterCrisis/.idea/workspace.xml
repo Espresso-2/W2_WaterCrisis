@@ -7,17 +7,23 @@
     <list default="true" id="16d6e1f1-2403-48e6-b929-93f0cc777b07" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManagerUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ByteGame/com.bytedance.starksdk/WebGL/AssetBundle/TTAssetBundleProviders.cs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/ByteGame/com.bytedance.starksdk/WebGL/AssetBundle/TTAssetBundleProviders.cs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ByteGame/com.bytedance.starksdk/WebGL/StarkWebGLInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/ByteGame/com.bytedance.starksdk/WebGL/StarkWebGLInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ByteGame/com.bytedance.starksdk/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/ByteGame/com.bytedance.starksdk/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/ByteGame/com.bytedance.starksdk/starksdk.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/ByteGame/com.bytedance.starksdk/starksdk.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TreeWater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TreeWater.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Base/GoldManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Base/GoldManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Base/PanelBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Base/PanelBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Gold/Gold.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Gold/Gold.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaDataModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaDataModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/FalidPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/FailedPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/FalidPanel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/FailedPanel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/FailedPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/FailedPanel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/Slot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/Slot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
