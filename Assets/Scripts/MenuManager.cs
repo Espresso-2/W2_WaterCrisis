@@ -8,7 +8,7 @@ using W_Scripts.UI;
 public class MenuManager : MonoBehaviour
 {
     [SerializeField] private Text Level;
-    public int LoadLevel => PlayerPrefs.GetInt("Level",1);
+    public int LoadLevel;
 
     private Dictionary<int, Level> CurrentLevelShows = new();
 
@@ -24,6 +24,7 @@ public class MenuManager : MonoBehaviour
     protected void Awake()
     {
         Instance = this;
+        LoadLevel= UnityEngine.PlayerPrefs.GetInt("Level",1);
         Level.text = "关卡" + LoadLevel;
     }
 
@@ -32,6 +33,10 @@ public class MenuManager : MonoBehaviour
         //如果当前关卡解锁则显示下一个关卡但不可用
         for (int i = 1; i <= LoadLevel + 1; i++)
         {
+            if ((LoadLevel+1)>=20)
+            {
+                break;
+            }
             InstantiateLevelShow(i);
         }
         foreach (Level level in CurrentLevelShows.Values)

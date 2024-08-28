@@ -1,17 +1,15 @@
 using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Serialization;
 
 namespace W_Scripts.Base
 {
     public class GoldManager : MonoBehaviour
     {
-        public int LeveIndex;
+        [NonSerialized] public int LeveIndex;
+        [NonSerialized] public int CurrentLevelCoin = 0;
         [SerializeField] private GameObject[] son;
         public static GoldManager Instance;
-       
-        private int LastLeveCoinValue = 0;
 
         private void Awake()
         {
@@ -19,16 +17,49 @@ namespace W_Scripts.Base
             {
                 Instance = this;
             }
-            LeveIndex = SceneManager.GetActiveScene().buildIndex;
-          
         }
 
         private void Start()
         {
-            if (!PlayerPrefs.HasKey("LevelCoin"+LeveIndex)|| PlayerPrefs.GetInt("LevelCoin"+LeveIndex) == 0) return;
-            for (int i = 0; i < PlayerPrefs.GetInt("LevelCoin"+LeveIndex); i++)
+            Debug.Log("计次");
+            LeveIndex = SceneManager.GetActiveScene().buildIndex;
+            HideGold();
+        }
+
+        public void AddCoin()
+        {
+            if (CurrentLevelCoin >= 3) return;
+            CurrentLevelCoin += 1;
+           UnityEngine.PlayerPrefs.SetInt("LeveCoin" + LeveIndex, CurrentLevelCoin);
+           UnityEngine.PlayerPrefs.Save();
+        }
+
+        private void HideGold()
+        {
+            switch (UnityEngine.PlayerPrefs.GetInt("LevelCoin"+LeveIndex))
             {
-                son[i].SetActive(false);
+                case 3:
+                {
+                    foreach (GameObject gold in son)
+                    {
+                        gold.gameObject.SetActive(false);
+                    }
+                    break;
+                }
+                case 2:
+                {
+                    for (int i = 0; i < 2; i++)
+                    {
+                        son[i].gameObject.SetActive(false);
+                    }
+                    break;
+                }
+                case 1:
+                    son[0].gameObject.SetActive(false);
+                    break;
+                case 0:
+                    Debug.Log("一个金币都没获取");
+                    break;
             }
         }
     }

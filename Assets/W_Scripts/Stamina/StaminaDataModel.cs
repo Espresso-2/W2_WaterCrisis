@@ -11,7 +11,7 @@ namespace W_Scripts
 
         static StaminaDataModel()
         {
-            lockStamina = PlayerPrefs.GetInt(LockStamina, 5);
+            lockStamina = UnityEngine.PlayerPrefs.GetInt(LockStamina, 5);
             currentStamina = maxStamina - lockStamina;
         }
 
@@ -35,7 +35,7 @@ namespace W_Scripts
         {
             lockStamina--;
             AddStamina();
-            PlayerPrefs.SetInt(LockStamina, lockStamina);
+            UnityEngine.PlayerPrefs.SetInt(LockStamina, lockStamina);
         }
         
     }

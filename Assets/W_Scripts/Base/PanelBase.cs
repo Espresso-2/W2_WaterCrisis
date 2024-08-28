@@ -6,11 +6,6 @@ using UnityEngine;
 public abstract class PanelBase : MonoBehaviour
 {
    [SerializeField] protected GameObject[] CoinSon;
-   protected virtual void ChangeActive()
-   {
-      gameObject.SetActive(!gameObject.activeSelf);
-   }
-
    protected virtual void OnEnable()
    {
       

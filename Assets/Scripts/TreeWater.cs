@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-using Water2D;
+﻿using UnityEngine;
+using W_Scripts.Base;
 
 public class TreeWater : MonoBehaviour
 {
@@ -32,10 +28,7 @@ public class TreeWater : MonoBehaviour
         if (WaterDrops >= 80 && !IsWin)
         {
             IsWin = true;
-            Invoke(nameof(ShowWin),1f);
-           
-            PlayerPrefs.SetInt("Level",PlayerPrefs.GetInt("Level",0)+1);
-            PlayerPrefs.Save();
+            Invoke(nameof(ShowWin), 1f);
         }
     }
 
