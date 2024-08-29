@@ -47,7 +47,7 @@ namespace W_Scripts.UI
 
             #region 获取关卡所得的金币数
 
-            Coins = PlayerPrefs.GetInt("LevelCoin" + levelIndex);
+            Coins = PlayerPrefs.GetInt("LevelCoinNumber" + levelIndex,0);
             ShowGold(Coins);
 
             #endregion

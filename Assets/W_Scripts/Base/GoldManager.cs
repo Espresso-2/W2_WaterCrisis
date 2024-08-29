@@ -6,56 +6,56 @@ namespace W_Scripts.Base
 {
     public class GoldManager : MonoBehaviour
     {
-        [NonSerialized] public int LeveIndex;
-        [NonSerialized] public int CurrentLevelCoin = 0;
-         private Gold[] son;
+        internal int CurrentLevelCoin = 0;
+        [SerializeField]
+        private GameObject[] Golds;
+        internal int LevelBuildIndex;
 
-         private void Awake()
-         {
-             son = GetComponentsInChildren<Gold>();
-         }
-
-         private void Start()
+        private void Awake()
         {
-            LeveIndex = SceneManager.GetActiveScene().buildIndex;
-            CurrentLevelCoin = PlayerPrefs.GetInt("LevelCoin" + LeveIndex, 0);
-            Debug.Log($"当前场景获取的金币数量：{CurrentLevelCoin}");
+            LevelBuildIndex = SceneManager.GetActiveScene().buildIndex;
+        }
+
+        private void Start()
+        {
+            CurrentLevelCoin = PlayerPrefs.GetInt("LevelCoinNumber" + LevelBuildIndex.ToString(), 0);
             HideGold();
         }
+        
 
         public void AddCoin()
         {
             if (CurrentLevelCoin >= 3) return;
             CurrentLevelCoin += 1;
-            PlayerPrefs.SetInt("LeveCoin" + LeveIndex, CurrentLevelCoin);
+            PlayerPrefs.SetInt("LevelCoinNumber" + LevelBuildIndex, CurrentLevelCoin);
             PlayerPrefs.Save();
         }
 
         private void HideGold()
         {
+            Debug.Log("进入");
             switch (CurrentLevelCoin)
             {
-                case 0 :
-                    foreach (Gold gold in son)
+                case 0:
+                    for (int i = 0; i < Golds.Length; i++)
                     {
-                        gold.gameObject.SetActive(true);
-                    } ;
+                        Golds[i].SetActive(true);
+                    }
                     break;
                 case 1:
-                    for (int i = 0; i < 2; i++)
+                    for (int i = 0; i < Golds.Length-1; i++)
                     {
-                        son[i].gameObject.SetActive(true);
+                        Golds[i].SetActive(true);
                     }
-                    ;
                     break;
                 case 2:
-                    son[0].gameObject.SetActive(true);
+                    Golds[0].SetActive(true);
                     break;
                 case 3:
-                    foreach (Gold gold in son)
+                    for (int i = 0; i < Golds.Length; i++)
                     {
-                        gold.gameObject.SetActive(false);
-                    } ;
+                        Golds[i].SetActive(false);
+                    }
                     break;
                 default:
                     Debug.LogError("错误的数字");

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using W_Scripts.Base;
 using DG.Tweening;
@@ -17,6 +18,11 @@ public class Gold : MonoBehaviour
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+       
+    }
+
+    private void Start()
+    {
         goldManager = GetComponentInParent<GoldManager>();
     }
 

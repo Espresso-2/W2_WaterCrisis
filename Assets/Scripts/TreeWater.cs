@@ -29,7 +29,7 @@ public class TreeWater : MonoBehaviour
         if (WaterDrops >= 80 && !IsWin)
         {
             IsWin = true;
-            PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level") + 1);
+            PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level",1) + 1);
             PlayerPrefs.Save();
             Win.SetActive(IsWin);
         }

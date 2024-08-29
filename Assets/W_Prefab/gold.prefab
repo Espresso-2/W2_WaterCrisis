@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599135c1c7ed4a3996850b6801619a66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  son:
+  Golds:
   - {fileID: 1271440732451181031}
   - {fileID: 1271440733948450322}
   - {fileID: 1271440733174560843}
