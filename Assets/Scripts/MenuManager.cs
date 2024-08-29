@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -40,6 +41,11 @@ public class MenuManager : MonoBehaviour
     /// 体力系统实例
     /// </summary>
     [SerializeField] private StaminaSystem StaminaSystem;
+    /// <summary>
+    /// 体力不足提示
+    /// </summary>
+    [SerializeField] private CanvasGroup StaminaLess;
+    
     public static MenuManager Instance;
 
     /// <summary>
@@ -85,8 +91,16 @@ public class MenuManager : MonoBehaviour
     /// </summary>
     public void StartGame()
     {
-        StaminaSystem.RemoveStamina();
-        SceneManager.LoadScene(CurrentIndex);
+        if (StaminaSystem.CheckCurrentStamina())
+        {
+            StaminaSystem.RemoveStamina();
+            SceneManager.LoadScene(CurrentIndex);
+        }
+        else
+        {
+           FadeStamina();
+        }
+        
     }
 
     /// <summary>
@@ -127,5 +141,13 @@ public class MenuManager : MonoBehaviour
         {
             level.OnSelected -= LevelSelected;
         }
+    }
+
+    private void FadeStamina()
+    {
+        StaminaLess.DOFade(1, 1f).OnComplete(() =>
+        {
+            StaminaLess.DOFade(0, 1f);
+        });
     }
 }

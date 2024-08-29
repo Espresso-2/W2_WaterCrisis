@@ -91,5 +91,10 @@ namespace W_Scripts
                 /*text.text = "00:00";*/
             }
         }
+
+        public bool CheckCurrentStamina()
+        {
+            return Presenter.GetCurrentStamina()>0;
+        }
     }
 }

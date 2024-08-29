@@ -21,7 +21,11 @@ namespace W_Scripts
             StaminaDataModel.RemoveStamina();
             UpdateUI();
         }
-        
+
+        public int GetCurrentStamina()
+        {
+            return StaminaDataModel.currentStamina;
+        }
 
         public void UnLockStamina()
         {
