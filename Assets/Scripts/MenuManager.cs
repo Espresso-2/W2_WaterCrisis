@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using W_Scripts;
+using W_Scripts.AdManager;
 using W_Scripts.UI;
 
 public class MenuManager : MonoBehaviour
@@ -149,5 +150,10 @@ public class MenuManager : MonoBehaviour
         {
             StaminaLess.DOFade(0, 1f);
         });
+    }
+
+    public void OnClickAdd()
+    {
+      
     }
 }

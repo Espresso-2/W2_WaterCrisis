@@ -32,6 +32,11 @@ namespace W_Scripts
             StaminaDataModel.UnLockStamina();
             UpdateUI();
         }
+        public  void AddMaxStamina()
+        {
+            StaminaDataModel.AddMaxStamina();
+            UpdateUI();
+        }
 
         private void UpdateUI()
         {

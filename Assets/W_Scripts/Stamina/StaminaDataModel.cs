@@ -23,6 +23,11 @@ namespace W_Scripts
             }
         }
 
+        public static void AddMaxStamina()
+        {
+            currentStamina += (maxStamina - lockStamina - currentStamina);
+        }
+
         public static void RemoveStamina()
         {
             if (currentStamina > 0)

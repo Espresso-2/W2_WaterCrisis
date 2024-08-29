@@ -1,11 +1,13 @@
 using UnityEngine;
+using UnityEngine.UI;
+using W_Scripts;
 using W_Scripts.Base;
 
 public class WinPanel : PanelBase
 {
     [SerializeField] private GameObject GetMAxCoinButton;
     private GoldManager goldManager;
-
+    [SerializeField] private Button NextLevel;
     private void Awake()
     {
         goldManager = FindObjectOfType<GoldManager>();
@@ -21,6 +23,7 @@ public class WinPanel : PanelBase
                 CoinSon[i].SetActive(true);
             }
         }
+        NextLevel.interactable = StaminaSystem.Instance.CheckCurrentStamina();
     }
 
     protected override void OnDisable()

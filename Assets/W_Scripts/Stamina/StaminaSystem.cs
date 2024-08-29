@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
+using W_Scripts.AdManager;
 
 namespace W_Scripts
 {
@@ -48,6 +49,7 @@ namespace W_Scripts
             Presenter = new(View);
             StartCoroutine(Recover());
         }
+
         /// <summary>
         /// 添加体力
         /// </summary>
@@ -55,6 +57,7 @@ namespace W_Scripts
         {
             Presenter.AddStamina();
         }
+
         /// <summary>
         /// 删除体力
         /// </summary>
@@ -62,13 +65,15 @@ namespace W_Scripts
         {
             Presenter.RemoveStamina();
         }
+
         /// <summary>
         /// 解锁体力
         /// </summary>
         public void UnLockStamina()
         {
-            Presenter.UnLockStamina();
+            DouyinAdManager.ShowReward(() => { Presenter.UnLockStamina(); });
         }
+
         /// <summary>
         /// 恢复体力携程
         /// </summary>
@@ -94,7 +99,12 @@ namespace W_Scripts
 
         public bool CheckCurrentStamina()
         {
-            return Presenter.GetCurrentStamina()>0;
+            return Presenter.GetCurrentStamina() > 0;
+        }
+
+        public void AddMaxStamina()
+        {
+            DouyinAdManager.ShowReward(() => { Presenter.AddMaxStamina(); });
         }
     }
 }
