@@ -8,12 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/AdManager.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/AdManager/DouyinAdManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/AdManager/DouyinAdManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/SoundManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/SoundManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Manager/AdManager/StartRecordManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Manager/AdManager/StartRecordManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Texture/0901/share_word.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Texture/0901/share_word.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Texture/tips_2_0_gold.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Texture/tips_2_0_gold.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +133,8 @@
       <workItem from="1724775709687" duration="616000" />
       <workItem from="1724776354668" duration="4824000" />
       <workItem from="1724934039916" duration="7633000" />
-      <workItem from="1725162010435" duration="10488000" />
+      <workItem from="1725162010435" duration="11134000" />
+      <workItem from="1725183642247" duration="3419000" />
     </task>
     <servers />
   </component>

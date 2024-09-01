@@ -15,6 +15,7 @@ namespace W_Scripts.UI
         private GameObject Lock;
         private GameObject Selected;
         private GameObject Animal;
+        private GameObject neW;
         [SerializeField] private GameObject[] Golds;
         public bool IsSelected { get; set; }
         public Action<int> OnSelected;
@@ -25,6 +26,7 @@ namespace W_Scripts.UI
 
         private void Awake()
         {
+            neW = transform.Find("NeW").gameObject;
             UnLock = transform.Find("UnLock").gameObject;
             Lock = transform.Find("Lock").gameObject;
             Selected = transform.Find("Selected").gameObject;
@@ -51,7 +53,7 @@ namespace W_Scripts.UI
             ShowGold(Coins);
 
             #endregion
-
+            neW.gameObject.SetActive(PlayerPrefs.GetInt("Level",1)==levelIndex);
             LevelText = transform.GetChild(4).GetComponent<Text>();
             LevelText.text = "第" + levelIndex + "关";
         }

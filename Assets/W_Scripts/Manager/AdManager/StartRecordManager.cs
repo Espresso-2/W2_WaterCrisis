@@ -21,13 +21,14 @@ public class StartRecordManager : MonoBehaviour
         transform.Find(StartButtonName)?.GetComponent<Button>().onClick.AddListener(() =>
         {
             StartRecord();
-            transform.Find(StopButtonName)?.gameObject.SetActive(true);
             transform.Find(StartButtonName)?.gameObject.SetActive(false);
+            transform.Find(StopButtonName)?.gameObject.SetActive(true);
         });
         transform.Find(StopButtonName)?.GetComponent<Button>().onClick.AddListener(() =>
         {
             StopRecorder();
-            gameObject.SetActive(false);
+            transform.Find(StartButtonName)?.gameObject.SetActive(true);
+            transform.Find(StopButtonName)?.gameObject.SetActive(false);
         });
     }
 
