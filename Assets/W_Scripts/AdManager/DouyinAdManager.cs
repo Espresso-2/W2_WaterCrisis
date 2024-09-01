@@ -14,6 +14,7 @@ namespace W_Scripts.AdManager
         private const string Interstitial = "";
         private const string Banner = "";
         private static int MaxRecordTime = 0;
+        public static bool isFormSliderbar;
 
         #region 实例
 
@@ -132,9 +133,8 @@ namespace W_Scripts.AdManager
                     currentRecorder.StartRecord(true, MaxRecordTime, () => { clipRanges.Clear(); },
                         (errCode, ErrMsg) => { Debug.LogError("录屏错误" + errCode + "错误信息" + ErrMsg); }, (path) =>
                         {
-                            Debug.Log("超时"+"地址Path:"+path);
+                            Debug.Log("超时" + "地址Path:" + path);
                             MaxRecordTime = 0;
-                            
                         });
                 }
             }
@@ -150,6 +150,34 @@ namespace W_Scripts.AdManager
                 Debug.Log("停止录屏" + "  地址为" + path);
                 MaxRecordTime = 0;
             });
+        }
+
+        /// <summary>
+        /// 侧边栏 WEBGL
+        /// </summary>
+        public static void GetStarkSideBar()
+        {
+            StarkSDK.API.GetStarkSideBarManager().CheckScene(StarkSideBar.SceneEnum.SideBar,
+                b => { Debug.Log("是否成功" + b); }, () => { Debug.Log("检查跳转已完成"); },
+                (errCode, ErrMsg) => { Debug.Log($"错误代码:{errCode}" + "错误信息" + ErrMsg); });
+        }
+
+        /// <summary>
+        /// 侧边栏 Android
+        /// </summary>
+        public static void GetStarkSideBarAndroid()
+        {
+            StarkSDK.API.GetStarkSideBarManager().NavigateToScene(StarkSideBar.SceneEnum.SideBar,
+                () => { Debug.Log("成功"); }, () => { Debug.Log("检查完成"); },
+                (errCode, errMsg) => { Debug.Log($"错误代码:{errCode}" + "错误信息" + errMsg); });
+        }
+
+        /// <summary>
+        /// 感知用户是否从侧边栏场景进入
+        /// </summary>
+        public static void OnShowWithDict()
+        {
+            StarkSDK.API.GetStarkAppLifeCycle().OnShowWithDict += _ => { isFormSliderbar = true; };
         }
     }
 }
