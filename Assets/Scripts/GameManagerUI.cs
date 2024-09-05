@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using DG.Tweening;
 using UnityEngine.Serialization;
 using W_Scripts;
+using W_Scripts.AdManager;
 
 public class GameManagerUI : MonoBehaviour
 {
@@ -41,7 +42,7 @@ public class GameManagerUI : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        DouyinAdManager.ShowReward(() => { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); });
     }
 
     public void LoadMenu()

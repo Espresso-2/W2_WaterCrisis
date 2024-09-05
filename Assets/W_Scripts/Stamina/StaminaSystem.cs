@@ -1,7 +1,5 @@
-using System;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 using W_Scripts.AdManager;
 
 namespace W_Scripts
@@ -30,6 +28,7 @@ namespace W_Scripts
         /// </summary>
         public static StaminaSystem Instance;
 
+        internal string ShowRecover;
         private void Awake()
         {
             if (Instance is null)
@@ -85,13 +84,14 @@ namespace W_Scripts
                 float remainingTime = RecoverTime;
                 while (remainingTime > 0)
                 {
-                    /*int minutes = Mathf.FloorToInt(remainingTime / 60);
-                    int seconds = Mathf.FloorToInt(remainingTime % 60);*/
-                    /*text.text = $"{minutes:00}:{seconds:00}";*/
+                    int minutes = Mathf.FloorToInt(remainingTime / 60);
+                    int seconds = Mathf.FloorToInt(remainingTime % 60);
+                    ShowRecover = $"{minutes:00}:{seconds:00}";
                     yield return new WaitForSeconds(1f);
                     remainingTime--;
                 }
                 AddStamina();
+                ShowRecover = "10:00";
                 // Optionally handle when the countdown reaches zero
                 /*text.text = "00:00";*/
             }

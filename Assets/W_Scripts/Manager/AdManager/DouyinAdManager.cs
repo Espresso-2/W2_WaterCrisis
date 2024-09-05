@@ -10,7 +10,7 @@ namespace W_Scripts.AdManager
     /// </summary>
   public static class DouyinAdManager
     {
-        private const string Reward = "";
+        private const string Reward = "i3ahegha701a60df4m";
         private const string Interstitial = "";
         private const string Banner = "";
         private static int MaxRecordTime = 0;
