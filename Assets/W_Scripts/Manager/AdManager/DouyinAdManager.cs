@@ -8,7 +8,7 @@ namespace W_Scripts.AdManager
     /// <summary>
     /// 抖音广告管理
     /// </summary>
-    public static class DouyinAdManager
+  public static class DouyinAdManager
     {
         private const string Reward = "";
         private const string Interstitial = "";
@@ -153,23 +153,13 @@ namespace W_Scripts.AdManager
         }
 
         /// <summary>
-        /// 侧边栏 WEBGL
+        /// 去侧边栏,去往侧边栏带有回调方法
         /// </summary>
-        public static void GetStarkSideBar()
-        {
-            StarkSDK.API.GetStarkSideBarManager().CheckScene(StarkSideBar.SceneEnum.SideBar,
-                b => { Debug.Log("是否成功" + b); }, () => { Debug.Log("检查跳转已完成"); },
-                (errCode, ErrMsg) => { Debug.Log($"错误代码:{errCode}" + "错误信息" + ErrMsg); });
-        }
-
-        /// <summary>
-        /// 侧边栏 Android
-        /// </summary>
-        public static void GetStarkSideBarAndroid()
+        public static void GetStarkSideBar(Action callBack)
         {
             StarkSDK.API.GetStarkSideBarManager().NavigateToScene(StarkSideBar.SceneEnum.SideBar,
-                () => { Debug.Log("成功"); }, () => { Debug.Log("检查完成"); },
-                (errCode, errMsg) => { Debug.Log($"错误代码:{errCode}" + "错误信息" + errMsg); });
+                () => {  }, () => { callBack?.Invoke();},
+                (errCode, errMsg) => { Debug.Log($"调用侧边栏出错 : {errMsg},$错误代码:{errCode}"); });
         }
 
         /// <summary>
@@ -178,6 +168,14 @@ namespace W_Scripts.AdManager
         public static void OnShowWithDict()
         {
             StarkSDK.API.GetStarkAppLifeCycle().OnShowWithDict += _ => { isFormSliderbar = true; };
+        }
+
+        /// <summary>
+        /// 分享
+        /// </summary>
+        public static void GetStarkShare()
+        {
+            StarkSDK.API.GetStarkShare();
         }
     }
 }

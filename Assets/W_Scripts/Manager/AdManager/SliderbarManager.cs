@@ -8,10 +8,8 @@ using W_Scripts.AdManager;
 /// </summary>
 public class SliderbarManager : MonoBehaviour
 {
-    /// <summary>
-    /// 获取奖励与打开侧边栏按钮
-    /// </summary>
-    private Button OpenSliderBar;
+    [SerializeField]
+    private Button _button;
     /// <summary>
     /// 文字显示
     /// </summary>
@@ -26,33 +24,21 @@ public class SliderbarManager : MonoBehaviour
     /// </summary>
     private void Awake()
     {
-        OpenSliderBar = GetComponent<Button>();
+        DouyinAdManager.OnShowWithDict();
         OpenSliderImage = GetComponentInChildren<Image>();
     }
 
     private void Start()
     {
-        //首先判断用户是否从侧边栏进入并记录bool
-        DouyinAdManager.OnShowWithDict();
-        //如果是从侧边栏进入则将按钮点击事件清空并更换显示文本，添加解锁体力事件
-        if (DouyinAdManager.isFormSliderbar)
+        gameObject.SetActive(DouyinAdManager.isFormSliderbar);
+        _button.onClick.AddListener(() =>
         {
-            OpenSliderImage.sprite = GerReward;
-            OpenSliderBar.onClick.RemoveAllListeners();
-            OpenSliderBar.onClick.AddListener(() => { StaminaSystem.Instance.UnLockStamina(); });
-        }
-        //如果不是从侧边栏进入游戏则将按钮点击事件清空，根据平台判断注册对应平台打开侧边栏的功能接口
-        else
-        {
-            OpenSliderBar.onClick.RemoveAllListeners();
-            OpenSliderBar.onClick.AddListener(() =>
+            DouyinAdManager.GetStarkSideBar(() =>
             {
-#if PLATFORM_WEBGL
-                DouyinAdManager.GetStarkSideBar();
-#else
-                DouyinAdManager.GetStarkSideBarAndroid();
-#endif
+                OpenSliderImage.sprite = GerReward;
+                _button.onClick.RemoveAllListeners();
+                _button.onClick.AddListener(() => { StaminaSystem.Instance.UnLockStamina(); });
             });
-        }
+        });
     }
 }

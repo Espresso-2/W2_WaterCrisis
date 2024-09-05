@@ -133,7 +133,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!1 &177488617
 GameObject:
@@ -1867,7 +1867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -295.1, y: 631.2}
+  m_AnchoredPosition: {x: -295.1, y: 521}
   m_SizeDelta: {x: 85, y: 296}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3948249619088309009
@@ -2232,7 +2232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &539008269184028852
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2758,7 +2758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -72.3999}
+  m_AnchoredPosition: {x: 0, y: -182.59985}
   m_SizeDelta: {x: 353.6776, y: 94.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4998573649339983617
@@ -5584,7 +5584,7 @@ GameObject:
   - component: {fileID: 441527792100952443}
   - component: {fileID: 7406868256304652508}
   - component: {fileID: 1259939819061825490}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: FailCatSpinAntatimon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6006,7 +6006,7 @@ GameObject:
   - component: {fileID: 284272684390767231}
   - component: {fileID: 7598264609408311623}
   - component: {fileID: 2688069608385405285}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: WinCatSpinAntatimon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6351,6 +6351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoundManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2668781089142212183, guid: 6d1d62d6645d8ff4e851983aaa1bdf14, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d1d62d6645d8ff4e851983aaa1bdf14, type: 3}
 --- !u!4 &2119748478769499496 stripped
@@ -6470,6 +6474,10 @@ PrefabInstance:
     - target: {fileID: 7763451671719299070, guid: 19655e739bf0793458f954c1a401defe, type: 3}
       propertyPath: m_Name
       value: SliderBarReward
+      objectReference: {fileID: 0}
+    - target: {fileID: 7763451671719299070, guid: 19655e739bf0793458f954c1a401defe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7901334140084523821, guid: 19655e739bf0793458f954c1a401defe, type: 3}
       propertyPath: m_Pivot.x

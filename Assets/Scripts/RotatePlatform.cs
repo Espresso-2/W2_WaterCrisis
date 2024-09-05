@@ -19,10 +19,21 @@ public class RotatePlatform : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0) && !SpawnWater.instance.WaterSpawned &&
-            !EventSystem.current.IsPointerOverGameObject())
+        if (Input.GetMouseButton(0) && !SpawnWater.instance.WaterSpawned)
         {
-            transform.Rotate(Vector3.forward * (speedRotate * Time.deltaTime));
+            if (!IsPointerOverUIElement())
+            {
+                transform.Rotate(Vector3.forward * (speedRotate * Time.deltaTime));
+            }
         }
+    }
+
+    private bool IsPointerOverUIElement()
+    {
+        PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+        eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        List<RaycastResult> results = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+        return results.Count > 0;
     }
 }

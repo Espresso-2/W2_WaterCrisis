@@ -10,14 +10,12 @@ public class StartRecordManager : MonoBehaviour
     [SerializeField, Header("停止录屏按钮的名字"), Space(10)]
     private string StopButtonName = "StopRecord";
 
-    private StarkGameRecorder starkGameRecorder;
     private bool m_IsRecordAudio = true;
     private int m_MaxRecordTime = 0;
     private List<StarkGameRecorder.TimeRange> m_ClipRanges = new List<StarkGameRecorder.TimeRange>();
 
     private void Start()
     {
-        starkGameRecorder = StarkSDK.API.GetStarkGameRecorder();
         transform.Find(StartButtonName)?.GetComponent<Button>().onClick.AddListener(() =>
         {
             StartRecord();
@@ -36,15 +34,8 @@ public class StartRecordManager : MonoBehaviour
 
     private void StartRecord()
     {
-        if (starkGameRecorder.GetVideoRecordState() != StarkGameRecorder.VideoRecordState.RECORD_STARTED)
-        {
-            starkGameRecorder.StartRecord(m_IsRecordAudio, m_MaxRecordTime, OnRecordStart, OnRecordError,
-                OnRecordTimeout);
-        }
-        else
-        {
-            Debug.Log("Recorder is started");
-        }
+        StarkSDK.API.GetStarkGameRecorder().StartRecord(m_IsRecordAudio, m_MaxRecordTime, OnRecordStart, OnRecordError,
+            OnRecordTimeout);
     }
 
     private void OnRecordTimeout(string videopath)
@@ -74,11 +65,12 @@ public class StartRecordManager : MonoBehaviour
 
     private void StopRecorder()
     {
-        starkGameRecorder.StopRecord(OnRecordComplete, OnRecordError);
+        StarkSDK.API.GetStarkGameRecorder().StopRecord(OnRecordComplete, OnRecordError);
     }
 
     private void OnRecordComplete(string videopath)
     {
+        StarkSDK.API.GetStarkGameRecorder().ShareVideo(b => { }, b => { },()=>{});
         Debug.Log($"地址 ：{videopath}");
         m_MaxRecordTime = 0;
     }
