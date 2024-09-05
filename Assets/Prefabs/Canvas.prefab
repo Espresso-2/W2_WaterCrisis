@@ -4012,8 +4012,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6448925586790896512}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: Restart
+        m_TargetAssemblyTypeName: GameManagerUI, Assembly-CSharp
+        m_MethodName: RewardRestart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

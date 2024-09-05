@@ -10,8 +10,7 @@ namespace W_Scripts.UI
     /// </summary>
     public class Slot : MonoBehaviour
     {
-        [NonSerialized]
-        public SlotState CurrentState=SlotState.UnLock;
+        [NonSerialized] public SlotState CurrentState = SlotState.UnLock;
         private GameObject Has;
         private GameObject Lock;
 
@@ -20,12 +19,12 @@ namespace W_Scripts.UI
             Has = transform.GetChild(0).gameObject;
             Lock = transform.GetChild(1).gameObject;
         }
+
         /// <summary>
         /// 根据不同的数据更新槽位的变化
         /// </summary>
         private void Update()
         {
-          
             switch (CurrentState)
             {
                 case SlotState.Has:
@@ -33,9 +32,8 @@ namespace W_Scripts.UI
                     Lock.gameObject.SetActive(false);
                     break;
                 case SlotState.Lock:
-                    Has.gameObject.SetActive(false);
                     Lock.gameObject.SetActive(true);
-                  //  Lock.gameObject.AddComponent<Button>().onClick.AddListener(() => { });
+                    Has.gameObject.SetActive(false);
                     break;
                 case SlotState.UnLock:
                     Has.gameObject.SetActive(false);
