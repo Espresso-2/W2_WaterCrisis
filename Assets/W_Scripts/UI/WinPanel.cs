@@ -6,7 +6,7 @@ using W_Scripts.Base;
 
 public class WinPanel : PanelBase
 {
-    [SerializeField] private GameObject GetMAxCoinButton;
+    //[SerializeField] private GameObject GetMAxCoinButton;
     private GoldManager goldManager;
     [SerializeField] private Button NextLevel;
     private Text Tips;
@@ -20,7 +20,7 @@ public class WinPanel : PanelBase
 
     protected override void OnEnable()
     {
-        GetMAxCoinButton.SetActive(goldManager.CurrentLevelCoin < 3);
+      //  GetMAxCoinButton.SetActive(goldManager.CurrentLevelCoin < 3);
         if (goldManager.CurrentLevelCoin > 0)
         {
             for (int i = 0; i < goldManager.CurrentLevelCoin; i++)
@@ -34,6 +34,6 @@ public class WinPanel : PanelBase
 
     protected override void OnDisable()
     {
-        GetMAxCoinButton.SetActive(true);
+      //  GetMAxCoinButton.SetActive(true);
     }
 }

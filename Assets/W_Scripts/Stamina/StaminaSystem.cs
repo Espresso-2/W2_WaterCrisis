@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using W_Scripts.AdManager;
@@ -63,6 +64,22 @@ namespace W_Scripts
         public void RemoveStamina()
         {
             Presenter.RemoveStamina();
+        }
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                RemoveStamina();
+            }
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                AddStamina();
+            }
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                Presenter.UnLockStamina();
+            }
         }
 
         /// <summary>

@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16d6e1f1-2403-48e6-b929-93f0cc777b07" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/qrcodes/qrcode-20240905233055.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/StarkBuilderSetting.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/StarkBuilderSetting.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagerUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManagerUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TreeWater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TreeWater.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Prefab/gold.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Prefab/gold.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Base/GoldManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Base/GoldManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaDataModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaDataModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/Slot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/Slot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01670e1752ae462788551d7afc4523fc7f600/13/46bebdd4/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01670e1752ae462788551d7afc4523fc7f600/40/41a7c1f7/StarkAdManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01670e1752ae462788551d7afc4523fc7f600/7d/b5d8f1b1/StarkAppLifeCycle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01670e1752ae462788551d7afc4523fc7f600/89/bfe63388/IStarkAPI.cs" root0="SKIP_HIGHLIGHTING" />
@@ -155,6 +154,7 @@
       <workItem from="1725183642247" duration="4181000" />
       <workItem from="1725456125410" duration="5834000" />
       <workItem from="1725547150710" duration="6959000" />
+      <workItem from="1725777802717" duration="8515000" />
     </task>
     <servers />
   </component>

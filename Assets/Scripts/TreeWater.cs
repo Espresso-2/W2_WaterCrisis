@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using W_Scripts.Base;
 
 public class TreeWater : MonoBehaviour
@@ -9,6 +10,12 @@ public class TreeWater : MonoBehaviour
     float pos;
     Vector2 newPos;
     public static bool IsWin;
+    private int LevelIndex;
+
+    private void Awake()
+    {
+        LevelIndex = SceneManager.GetActiveScene().buildIndex;
+    }
 
     void Start()
     {
@@ -29,9 +36,21 @@ public class TreeWater : MonoBehaviour
         if (WaterDrops >= 80 && !IsWin)
         {
             IsWin = true;
-            PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level",1) + 1);
-            PlayerPrefs.Save();
+            IsNeedAddLeveIndex();
             Win.SetActive(IsWin);
+        }
+    }
+
+    private void IsNeedAddLeveIndex()
+    {
+        if (PlayerPrefs.GetInt("Level",1) <= LevelIndex)
+        {
+            PlayerPrefs.SetInt("Level", PlayerPrefs.GetInt("Level", 1) + 1);
+            PlayerPrefs.Save();
+        }
+        else
+        {
+            Debug.Log("正在游玩之间的关卡");
         }
     }
 }
