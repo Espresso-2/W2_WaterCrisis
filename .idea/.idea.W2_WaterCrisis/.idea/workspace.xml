@@ -7,15 +7,10 @@
     <list default="true" id="16d6e1f1-2403-48e6-b929-93f0cc777b07" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TreeWater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TreeWater.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Prefab/gold.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Prefab/gold.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Base/GoldManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Base/GoldManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaDataModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaDataModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level41.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level41.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/SceneGoTO/SceneGoToLoding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/SceneGoTO/SceneGoToLoding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Water2D/Core/Water2D_Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Water2D/Core/Water2D_Spawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,6 +150,7 @@
       <workItem from="1725456125410" duration="5834000" />
       <workItem from="1725547150710" duration="6959000" />
       <workItem from="1725777802717" duration="8515000" />
+      <workItem from="1726058159711" duration="904000" />
     </task>
     <servers />
   </component>

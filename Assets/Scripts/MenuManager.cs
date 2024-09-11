@@ -67,7 +67,7 @@ public class MenuManager : MonoBehaviour
         //如果当前关卡解锁则显示下一个关卡但不可用
         for (int i = 1; i <= LoadLevel + 1; i++)
         {
-            if ((LoadLevel + 1) >= 20)
+            if ((LoadLevel + 1) >= 50)
             {
                 break;
             }
