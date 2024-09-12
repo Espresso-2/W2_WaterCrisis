@@ -888,7 +888,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d1c3e9283941b54383d1da0e7ff9586, type: 3}
---- !u!84 &1307966832
+--- !u!84 &1309494072
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -902,8 +902,8 @@ RenderTexture:
   m_DownscaleFallback: 0
   m_IsAlphaChannelOptional: 0
   serializedVersion: 5
-  m_Width: 1955
-  m_Height: 365
+  m_Width: 720
+  m_Height: 1600
   m_AntiAliasing: 1
   m_MipCount: -1
   m_DepthStencilFormat: 90
@@ -1404,101 +1404,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64337308ae57d94ba8410d06ffe1403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitForTransitionIn: 1
-  AutoRun: 1
-  RepeatWhenEnabled: 0
-  TransitionInConfig:
-    AutoRun: 0
-    TransitionChildren: 0
-    MustTriggerDirect: 0
-    Delay: 0
-    Duration: 1.2
-    TimeUpdateMethod: 0
-    TransitionType: 15
-    AnimationCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    LoopMode: 2
-    OnTransitionStart:
-      m_PersistentCalls:
-        m_Calls: []
-    OnTransitionUpdate:
-      m_PersistentCalls:
-        m_Calls: []
-    OnTransitionComplete:
-      m_PersistentCalls:
-        m_Calls: []
-  TransitionOutConfig:
-    AutoRun: 0
-    TransitionChildren: 0
-    MustTriggerDirect: 0
-    Delay: 0
-    Duration: 0.3
-    TimeUpdateMethod: 0
-    TransitionType: 22
-    AnimationCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    LoopMode: 0
-    OnTransitionStart:
-      m_PersistentCalls:
-        m_Calls: []
-    OnTransitionUpdate:
-      m_PersistentCalls:
-        m_Calls: []
-    OnTransitionComplete:
-      m_PersistentCalls:
-        m_Calls: []
-  Target: {fileID: 0}
-  MoveMode: 1
-  InConfig:
-    StartPositionType: 1
-    StartPosition: {x: 0, y: 0.1, z: 0}
-  OutConfig:
-    EndPositionType: 0
-    EndPosition: {x: 0, y: 0, z: 0}
 --- !u!212 &1580888619
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1923,101 +1828,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e64337308ae57d94ba8410d06ffe1403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitForTransitionIn: 1
-  AutoRun: 1
-  RepeatWhenEnabled: 0
-  TransitionInConfig:
-    AutoRun: 0
-    TransitionChildren: 0
-    MustTriggerDirect: 0
-    Delay: 0
-    Duration: 1
-    TimeUpdateMethod: 0
-    TransitionType: 15
-    AnimationCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    LoopMode: 2
-    OnTransitionStart:
-      m_PersistentCalls:
-        m_Calls: []
-    OnTransitionUpdate:
-      m_PersistentCalls:
-        m_Calls: []
-    OnTransitionComplete:
-      m_PersistentCalls:
-        m_Calls: []
-  TransitionOutConfig:
-    AutoRun: 0
-    TransitionChildren: 0
-    MustTriggerDirect: 0
-    Delay: 0
-    Duration: 0.3
-    TimeUpdateMethod: 0
-    TransitionType: 22
-    AnimationCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    LoopMode: 0
-    OnTransitionStart:
-      m_PersistentCalls:
-        m_Calls: []
-    OnTransitionUpdate:
-      m_PersistentCalls:
-        m_Calls: []
-    OnTransitionComplete:
-      m_PersistentCalls:
-        m_Calls: []
-  Target: {fileID: 0}
-  MoveMode: 1
-  InConfig:
-    StartPositionType: 1
-    StartPosition: {x: 0, y: 0.12, z: 0}
-  OutConfig:
-    EndPositionType: 0
-    EndPosition: {x: 0, y: 0, z: 0}
 --- !u!1001 &1853879142
 PrefabInstance:
   m_ObjectHideFlags: 0
