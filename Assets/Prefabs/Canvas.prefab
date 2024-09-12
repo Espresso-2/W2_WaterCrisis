@@ -2721,6 +2721,7 @@ MonoBehaviour:
   - {fileID: 8040749478883054215}
   - {fileID: 8824679225392713578}
   NextLevel: {fileID: 1155858386}
+  AddMaxCoin: {fileID: 2083362238}
 --- !u!1 &4998573649339983620
 GameObject:
   m_ObjectHideFlags: 0

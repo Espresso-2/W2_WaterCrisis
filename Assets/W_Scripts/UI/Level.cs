@@ -49,13 +49,14 @@ namespace W_Scripts.UI
 
             #region 获取关卡所得的金币数
 
-            Coins = PlayerPrefs.GetInt("LevelCoinNumber" + levelIndex,0);
+            Coins = PlayerPrefs.GetInt("LevelCoinNumber" + levelIndex, 0);
             ShowGold(Coins);
 
             #endregion
-            neW.gameObject.SetActive(PlayerPrefs.GetInt("Level",1)==levelIndex);
+
+            neW.gameObject.SetActive(PlayerPrefs.GetInt("Level", 1) == levelIndex);
             LevelText = transform.GetChild(4).GetComponent<Text>();
-            LevelText.text = "第" + levelIndex + "关";
+            LevelText.text = "第  " + levelIndex + "  关";
         }
 
         public void OnUnLockClick()
@@ -75,9 +76,26 @@ namespace W_Scripts.UI
             //当前关卡索引大于通过关卡的索引证明是还未通过则返回false,其他都为True
             IsLock = MenuManager.Instance.LoadLevel < levelIndex;
             Lock.SetActive(IsLock);
+            
             UnLock.SetActive(value: (!IsLock && !IsSelected));
+            
             Selected.SetActive(value: (IsSelected && !IsLock));
-
+            
+            if (IsLock)
+            {
+                Debug.Log("000000000000000000000000000");
+                LevelText.color = new Color(85f / 255f, 84f / 255f, 84f / 255f, 1f);
+            }
+            else if (!IsLock && !IsSelected)
+            {
+                Debug.Log("111111111111111111111111");
+                LevelText.color = new Color(126f / 255f, 76f / 255f, 51f / 255f, 1f);
+            }
+            else if (IsSelected && !IsLock)
+            {
+                Debug.Log("222222222222222222222222222");
+                LevelText.color = new Color(138f / 255f, 63f / 255f, 31f / 255f, 1f);
+            }
             #endregion
 
             if (!IsSelected && CurrentAnimation != null && Track != null)

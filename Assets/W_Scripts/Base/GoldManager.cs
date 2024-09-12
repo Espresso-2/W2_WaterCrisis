@@ -29,6 +29,13 @@ namespace W_Scripts.Base
             PlayerPrefs.Save();
         }
 
+        public void AddMaxCoin()
+        {
+            CurrentLevelCoin = 3;
+            PlayerPrefs.SetInt("LevelCoinNumber" + LevelBuildIndex, CurrentLevelCoin);
+            PlayerPrefs.Save();
+        }
+
         private void HideGold()
         {
             Debug.Log($"当前关卡的金币数 :{CurrentLevelCoin}");
