@@ -60,4 +60,9 @@ public class GameManagerUI : MonoBehaviour
         StaminaDataModel.RemoveStamina();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void RewardNextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }

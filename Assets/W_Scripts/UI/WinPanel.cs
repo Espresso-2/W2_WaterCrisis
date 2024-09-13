@@ -11,12 +11,30 @@ public class WinPanel : PanelBase
     private GoldManager goldManager;
     [SerializeField] private Button NextLevel;
     [SerializeField] private Button AddMaxCoin;
+    [SerializeField] private GameObject AdICon;
+    [SerializeField] private GameObject RewardText;
     private Text Tips;
+    private GameManagerUI gameManagerUI;
 
     private void Awake()
     {
         goldManager = FindObjectOfType<GoldManager>();
         Tips = NextLevel.transform.Find("Text").GetComponent<Text>();
+        gameManagerUI = FindObjectOfType<GameManagerUI>();
+    }
+
+    protected override void OnEnable()
+    {
+        RewardText.SetActive(false);
+        AdICon.SetActive(false);
+        AddMaxCoin.gameObject.SetActive(goldManager.CurrentLevelCoin < 3);
+        if (goldManager.CurrentLevelCoin > 0)
+        {
+            for (int i = 0; i < goldManager.CurrentLevelCoin; i++)
+            {
+                CoinSon[i].SetActive(true);
+            }
+        }
     }
 
     private void Start()
@@ -32,20 +50,20 @@ public class WinPanel : PanelBase
                 }
             });
         });
-    }
-
-    protected override void OnEnable()
-    {
-        AddMaxCoin.gameObject.SetActive(goldManager.CurrentLevelCoin < 3);
-        if (goldManager.CurrentLevelCoin > 0)
+        if (StaminaSystem.Instance.CheckCurrentStamina())
         {
-            for (int i = 0; i < goldManager.CurrentLevelCoin; i++)
-            {
-                CoinSon[i].SetActive(true);
-            }
+            NextLevel.onClick.AddListener(gameManagerUI.NextLevel);
         }
-        NextLevel.interactable = StaminaSystem.Instance.CheckCurrentStamina();
-        Tips.text = StaminaSystem.Instance.CheckCurrentStamina() ? "下一关" : "体力不足";
+        else
+        {
+            RewardText.SetActive(true);
+            AdICon.SetActive(true);
+            NextLevel.onClick.RemoveListener(gameManagerUI.NextLevel);
+            NextLevel.onClick.AddListener(() =>
+            {
+                DouyinAdManager.ShowReward(() => { gameManagerUI.RewardNextLevel(); });
+            });
+        }
     }
 
     protected override void OnDisable()
