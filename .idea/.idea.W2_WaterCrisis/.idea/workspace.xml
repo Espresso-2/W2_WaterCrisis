@@ -8,33 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level10.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level9.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Loading.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Loading.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Prefab/ShowLevel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Prefab/ShowLevel.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/Level.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/Animal/skeleton_Atlas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/Animal/skeleton_Atlas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/Animal/skeleton_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/Animal/skeleton_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/LoseCat/skeleton_Atlas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/LoseCat/skeleton_Atlas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/LoseCat/skeleton_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/LoseCat/skeleton_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/WinCat/skeleton_Atlas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/WinCat/skeleton_Atlas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/WinCat/skeleton_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/WinCat/skeleton_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/happypass/skeleton_Atlas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/happypass/skeleton_Atlas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/happypass/skeleton_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/happypass/skeleton_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/lun/1_Atlas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/lun/1_Atlas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/lun/1_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/lun/1_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/water/skeleton_Atlas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/water/skeleton_Atlas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/water/skeleton_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/water/skeleton_Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/zhou/skeleton_Atlas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/zhou/skeleton_Atlas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/spineAnimation/zhou/skeleton_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/spineAnimation/zhou/skeleton_Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Base/GoldManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Base/GoldManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/FlipWebApps/BeautifulTransitions/Scripts/Transitions/Components/GameObject/TransitionMoveTraget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/Base/SingletonBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/SceneGoTO/SceneGoToLoding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/TutorialManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/UI/FailedPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/UI/Loading.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/W_Scripts/UI/SettingPanel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -176,6 +152,7 @@
       <workItem from="1725547150710" duration="6959000" />
       <workItem from="1725777802717" duration="8515000" />
       <workItem from="1726058159711" duration="904000" />
+      <workItem from="1726228824163" duration="1876000" />
     </task>
     <servers />
   </component>

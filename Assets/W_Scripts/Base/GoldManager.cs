@@ -13,8 +13,12 @@ namespace W_Scripts.Base
         private void Awake()
         {
             LevelBuildIndex = SceneManager.GetActiveScene().buildIndex;
+            foreach (var gold in Golds)
+            {
+                gold.SetActive(false);
+            }
         }
-
+        
         private void OnEnable()
         {
             CurrentLevelCoin = PlayerPrefs.GetInt("LevelCoinNumber" + LevelBuildIndex.ToString(), 0);
@@ -45,6 +49,12 @@ namespace W_Scripts.Base
             {
                 Golds[i].SetActive(true);
             }
+        }
+
+        private void OnDestroy()
+        {
+            PlayerPrefs.SetInt("LevelCoinNumber" + LevelBuildIndex, CurrentLevelCoin);
+            PlayerPrefs.Save();
         }
     }
 }
