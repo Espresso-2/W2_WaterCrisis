@@ -13,6 +13,7 @@ public class SliderbarManager : MonoBehaviour
     /// <summary>
     /// 文字显示
     /// </summary>
+    [SerializeField]
     private Image OpenSliderImage;
     /// <summary>
     /// 替换文字
@@ -25,7 +26,6 @@ public class SliderbarManager : MonoBehaviour
     private void Awake()
     {
         DouyinAdManager.OnShowWithDict();
-        OpenSliderImage = GetComponentInChildren<Image>();
     }
 
     private void Start()
