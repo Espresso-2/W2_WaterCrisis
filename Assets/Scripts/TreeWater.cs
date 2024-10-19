@@ -7,8 +7,7 @@ public class TreeWater : MonoBehaviour
 {
     public int WaterDrops;
     public GameObject Win;
-    [SerializeField,Header("向上移动的距离"),Space(15)]
-    public float pos=0.1f;
+    float pos=0.0175f;
     Vector2 newPos;
     public static bool IsWin;
     private int LevelIndex;
