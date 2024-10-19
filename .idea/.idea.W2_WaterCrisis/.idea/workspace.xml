@@ -8,7 +8,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.W2_WaterCrisis/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/FR2_Cache.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FR2_Cache.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TreeWater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TreeWater.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Manager/AdManager/SliderbarManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Manager/AdManager/SliderbarManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/Stamina/StaminaSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/Level.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/W_Scripts/UI/WinPanel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +157,7 @@
       <workItem from="1726058159711" duration="904000" />
       <workItem from="1726228824163" duration="2085000" />
       <workItem from="1726241218553" duration="4849000" />
-      <workItem from="1729346771263" duration="917000" />
+      <workItem from="1729346771263" duration="6090000" />
     </task>
     <servers />
   </component>

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: StarkBuilderSetting
   m_EditorClassIdentifier: 
   wasmResourceUrl: http://
-  webGLOutputDir: D:\Project\DPK\W_DY_Apk\Water_Web\0.1.2
+  webGLOutputDir: D:/Project/DPK/W_DY_Apk/Water/0.1.4
   useByteAudioAPI: 0
   wasmMemorySize: 128
   isWebGL2: 0
@@ -27,11 +27,11 @@ MonoBehaviour:
   isDevBuild: 0
   stripEngineCode: 0
   apkFileNameBase: WaterCrisis
-  apkOutputDir: D:/Project/DPK/W_DY_Apk/Water/0.1.2
+  apkOutputDir: D:/Project/DPK/W_DY_Apk/Water/0.1.4
   appHost: 2
   compressMethod: 1
   runtimeEnv: 0
-  framework: 1
+  framework: 0
   architecture: 2
   miniApkVersion: 1
   scriptingBackend: 0
@@ -39,11 +39,11 @@ MonoBehaviour:
   - com.bytedance.starksdk
   - _Backup~
   a: tt940de2b00b3af0c807
-  version: 0.1.3
+  version: 0.1.4
   autoVersion: 0
-  b: D:\Project\DPK\W_DY_Apk\Water_Web\0.1.2\webgl_package-20241009_204716.zip
+  b: D:/Project/DPK/W_DY_Apk/Water_Web/0.1.4/webgl_package-20241019_235929.zip
   c: 0
   d: 0
   e: 1
-  publishDesc: 0.1.3
+  publishDesc: 0.1.4
   idePath: 
