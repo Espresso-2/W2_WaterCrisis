@@ -19,7 +19,8 @@ namespace W_Scripts
         /// <summary>
         /// 体力恢复时间
         /// </summary>
-        [SerializeField] private float RecoverTime = 600f;
+        [SerializeField, Header("体力恢复时间"), Space(15)]
+        private float RecoverTime = 600f;
         /// <summary>
         /// 是否唯一
         /// </summary>
@@ -30,6 +31,7 @@ namespace W_Scripts
         public static StaminaSystem Instance;
 
         internal string ShowRecover;
+
         private void Awake()
         {
             if (Instance is null)

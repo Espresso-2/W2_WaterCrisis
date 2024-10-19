@@ -7,7 +7,8 @@ public class TreeWater : MonoBehaviour
 {
     public int WaterDrops;
     public GameObject Win;
-    float pos;
+    [SerializeField,Header("向上移动的距离"),Space(15)]
+    public float pos=0.1f;
     Vector2 newPos;
     public static bool IsWin;
     private int LevelIndex;
@@ -28,7 +29,6 @@ public class TreeWater : MonoBehaviour
         // Destroy(collision.gameObject);
         collision.gameObject.SetActive(false);
         WaterDrops++;
-        pos = pos + 0.1f;
         newPos = new Vector2(transform.position.x, transform.position.y + pos);
         transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), newPos,
             1 * Time.deltaTime);
